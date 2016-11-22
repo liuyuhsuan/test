@@ -4,7 +4,7 @@ var height = 768;
 var ctrl = d3.select(".newsletter").append("svg").attr("width", width).attr("height", height);
 d3.csv("stocks.csv",
       function(data) { console.log(data); });
-d3.csv("./HistoricalQuotes.csv", 
+d3.csv("stocks.csv", 
 	function(data)
 	{
 		var ln = data.length;

@@ -6,16 +6,12 @@
   <link rel="stylesheet" href="./css/indexStyle.css" type="text/css">
   <script async src="./jsFiles/indexJS.js"></script>
   <script src="https://d3js.org/d3.v4.min.js"></script>
+   <link rel="javascript" type="text/javascript" href="script.js" src="test.js">
   <title>Document</title>
 </head>
 
 <body style="height:100%;">
-<script src="https://d3js.org/d3.v4.min.js">
-  d3.csv("./stocks.csv",
-  function(data){
-  console.log(data);
-  });
-</script>
+
   <div class="aside" id="menu">
     <div id="logo">logo
      <!-- <svg height="1000" width="1000">
@@ -50,7 +46,7 @@
   <div class="aside" id="main">
     <header id="header">
       <br />
-      <div align="center" id="time" onclick="timeChange()"></div></header>
+      <div align="newsletter" id="time" onclick="timeChange()"></div></header>
     <div id="article">
       <br />
       <p>詳細的內容分析資料</p></div>
@@ -61,6 +57,7 @@
     <script type="text/javascript"> 
     var svgContainer = d3.select("body").append("svg").attr("width", 100).attr("height", 150);
     svgContainer.append('circle').attr('cx', 50).attr('cy', 50).attr('r', 30);
+    test();
   </script>
 </body>
 </html>
