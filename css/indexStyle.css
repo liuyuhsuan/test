@@ -1,0 +1,46 @@
+
+#menu{
+  position:fixed;
+  height:100%;
+  width:20%;
+  background: LemonChiffon;
+}
+#main{
+  float:right;
+  width:79%;
+  height:100%;
+}
+#header{
+  height:500px;
+  background:white;
+}
+#article{
+  height: 1200px;
+  background-color: NavajoWhite;
+}
+#footer{
+  height:200px;
+  background-color:DimGrey;
+}
+p{
+  color:black;
+}
+#time{
+  margin: 10px;
+  font-size:4rem;
+  font-weight:bold;
+  font-family:Microsoft JhengHei;
+}
+#logo{
+  height: 200px;
+  background: skyblue;
+}
+.section a{
+  display:block;
+  margin: 5px;
+}
+.sectionChild{
+  margin-top:-5px;
+  margin-left:20px;
+  font-size: 18px;
+}

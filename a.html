@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en" style="height:100%;">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="./css/indexStyle.css" type="text/css">
+  <script async src="./jsFiles/indexJS.js"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <title>Document</title>
+</head>
+
+<body style="height:100%;">
+<script src="https://d3js.org/d3.v4.min.js">
+  d3.csv("./stocks.csv",
+  function(data){
+  console.log(data);
+  });
+</script>
+  <div class="aside" id="menu">
+    <div id="logo">logo
+     <!-- <svg height="1000" width="1000">
+      <circle cx="200" cy="200" r="50" stroke="black" stroke-width="3" fill="black" />
+      <circle cx="150" cy="150" r="30" stroke="
+        black" stroke-width="3" fill="black" />
+      <circle cx="250" cy="150" r="30" stroke="black" stroke-width="3" fill="black" />
+      <ellipse cx="200" cy="300" rx="50" ry="65"
+        style="fill:black;stroke:black;stroke-width:2" />
+      <ellipse cx="165" cy="360" rx="30" ry="20"
+        style="fill:black;stroke:black;stroke-width:2" />
+      <ellipse cx="240" cy="360" rx="30" ry="20"
+        style="fill:black;stroke:black;stroke-width:2" />-->
+    </div>
+    <div class="section">
+      <h2>section1</h2>
+      <div class="sectionChild">
+        <a href="">a</a>
+        <a href="">b</a>
+        <a href="">c</a>
+        <a href="">d</a>
+        <a href="">e</a>
+      </div>
+    </div>
+    <div class="section">
+      <h2>section2</h2>
+    </div>
+    <div class="section">
+      <h2>section3</h2>
+    </div>
+  </div>
+  <div class="aside" id="main">
+    <header id="header">
+      <br />
+      <div align="center" id="time" onclick="timeChange()"></div></header>
+    <div id="article">
+      <br />
+      <p>詳細的內容分析資料</p></div>
+    <footer id="footer">
+      <br />
+      <p>簡介</p></footer>
+  </div>
+    <script type="text/javascript"> 
+    var svgContainer = d3.select("body").append("svg").attr("width", 100).attr("height", 150);
+    svgContainer.append('circle').attr('cx', 50).attr('cy', 50).attr('r', 30);
+  </script>
+</body>
+</html>
+svgContainer.select("svg").append("circle").attr({
+    'cx':50,
+    'cy':50,
+    'r':30,
+    'fill':'#f90',
+    'stroke':'#c00',
+    'stroke-width':'5px'  });
