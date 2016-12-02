@@ -3,8 +3,19 @@ library(XML)
 library(RCurl)
 library(httr)
 Sys.setlocale(category = "LC_ALL", locale = "cht")
-startNo = 4700
-endNo   = 4717 
+#==========================================================
+path="https://ndshen.github.io/test/movieList.html"
+temp=getURL(path ,encoding="utf-8")
+xmldoc=htmlParse(temp, encoding="utf-8")
+movieTitle   <- xpathSApply(xmldoc, "//td//a", xmlValue)
+movieTitle   <- gsub("\n", "", movieTitle)
+movieTitle   <- gsub("\t", "", movieTitle)
+
+
+
+#===========================================================
+startNo = 3600
+endNo   = 4855
 subPath <- "https://www.ptt.cc/bbs/movie/index"
 alldata = data.frame()
 for( pid in startNo:endNo )
@@ -27,21 +38,34 @@ for( pid in startNo:endNo )
     print(paste("End Try&Catch", urlPath))
   })
 }
-
-
-
-name<-"你的名字"
-movie1 =0
-good1=0
-bad1=0
-for(i in 1: length(alldata[,1])){
-  if(grepl(name, alldata[i, 1])){
-    movie1<-movie1+1
-    if(grepl("好雷", alldata[i, 1])){
-      good1<-good1+1
-    }
-    else if(grepl("負雷", alldata[i, 1])){
-      bad1<-bad1+1
+#======================================================================
+popular<-list()
+good<-list()
+bad<-list()
+for(movieListIndex in 1 : length(movieTitle)){
+  movieName<-movieTitle[movieListIndex]
+  frequency=0
+  goodNum=0
+  badNum=0
+  for(i in 1:nrow(alldata)){
+    if(grepl(movieName, alldata[i, 1])){
+      frequency=frequency+1
+      if(grepl("好雷", alldata[i,1])){
+        goodNum=goodNum+1
+      }
+      else if(grepl("負雷", alldata[i, 1])){
+        badNum=badNum+1
+      }
     }
   }
+  popular[movieListIndex]=frequency
+  good[movieListIndex]=goodNum
+  bad[movieListIndex]=badNum
 }
+final<-cbind(movieTitle, popular, good, bad)
+names(final)<-c("Name", "Popular", "Good", "Bad")
+#=======================================================================
+write.table(alldata, file = "C:/Users/User/Desktop/大二上/test/project/pttTitle.csv")
+write.table(final, file = "C:/Users/User/Desktop/大二上/test/project/final.csv")
+write.table(movieTitle, file = "C:/Users/User/Desktop/大二上/test/project/movieTitle.csv")
+test <- read.table("C:/Users/User/Desktop/大二上/test/project/final.csv", sep = ",")
