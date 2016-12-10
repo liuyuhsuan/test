@@ -2,7 +2,8 @@ devtools::install_github("hrbrmstr/omdbapi")
 library(omdbapi)
 library(dplyr)
 library(pbapply)
-movie="Fantastic Beasts and Where to Find Them"
+library(rcharts)
+movie="Haunted Campus"
 id=0
 searchList=search_by_title(movie)
 for(i in 1:nrow(searchList)){
