@@ -31,6 +31,11 @@ for(i in 1: length(movieUrl)){
   x=gsub("(?!^)(?=[[:upper:]])", " ", movieUrl[[i]], perl=T)
   movieUrl[i]=x
 }
+#====================================================
+setwd("C:\\Users\\User\\Desktop\\¤j¤G¤W\\test\\project")
+df2=read.csv("movieList2.0.csv")
+movieUrl=df2[,3]
+movieTitle=df2[,2]
 
 
 #=============================================================
