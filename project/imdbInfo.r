@@ -3,7 +3,7 @@ library(omdbapi)
 library(dplyr)
 library(pbapply)
 library(rcharts)
-movie="Haunted Campus"
+movie="A Monster Calls"
 id=0
 searchList=search_by_title(movie)
 for(i in 1:nrow(searchList)){
@@ -13,4 +13,4 @@ for(i in 1:nrow(searchList)){
   }
 }
 movieInfo=find_by_id(id)
-rating=movieInfo$imdbRating
+rating2=movieInfo$imdbRating

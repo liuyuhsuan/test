@@ -1,10 +1,8 @@
 ,movieTitle,englishName,rating
 1,魔髮精靈,Trolls,6.7
-2,比利林恩,Billy Lynn!|s Long Halftime walk,0
-3,的中場戰事,Billy Lynn!|s Long Halftime walk,0
+2,比利林恩的中場戰事,Billy Lynn!|s Long Halftime walk,0
 4,怪獸與牠們的產地,Fantastic Beasts and Where to Find Them ,0
-5,死亡筆記本:,Death Note: Light up the NEW world,0
-6,決戰新世界,Death Note: Light up the NEW world,0
+5,死亡筆記本:決戰新世界,Death Note: Light up the NEW world,0
 7,烈火邊境,Free State of Jones,6.9
 8,惡魔蛙男,Museum,0
 9,我們的輕狂年代,Everybody Wants Some ,0
@@ -23,13 +21,11 @@
 22,玩命光頭,Public Friends,0
 23,只要我長大,Lokah Laqi!I,0
 24,玩酷壞痞子,The Preppie Connection,6.2
-25,獻給米其林,For Grace,7.4
-26,的生命貴客,For Grace,7.4
+25,獻給米其林的生命貴客,For Grace,7.4
 27,密探,The Age of Shadows,7.4
 28,夜行動物,Nocturnal Animals ,0
 29,樂來越愛你,La La Land,8.9
-30,星際大戰外傳:,Rogue One: A Star Wars Story ,0
-31,俠盜一號,Rogue One: A Star Wars Story ,0
+30,星際大戰外傳:俠盜一號,Rogue One: A Star Wars Story ,0
 32,星際過客,Passengers,5.8
 33,長城,The Great Wall ,0
 34,決戰異世界5,Underworld: Blood Wars,6.3
@@ -39,7 +35,7 @@
 38,刺客教條,Assassin's Creed ,0
 39,墮落天使,Fallen,7
 40,失控隧道,Tunnel,0
-41,一萬公里的約定,"10,000 Miles",
+41,一萬公里的約定,10,
 42,聖誕搞轟趴,FALSE,0
 43,擺渡人,The Ferryman,4.7
 44,卡內陰,Incarnate,5.4
@@ -47,8 +43,7 @@
 46,遇見街貓BOB,A Street Cat Named Bob,7.3
 47,瑪麗娜之橋,Marina,7.3
 48,通靈美人,Planetarium,5
-49,不過就是世界,It's Only the End of the World,7.2
-50,末日,It's Only the End of the World,7.2
+49,不過就是世界末日,It's Only the End of the World,7.2
 51,新居風暴,The Salesman,8.5
 52,記憶乍響,Louder Than Bombs,6.6
 53,金爆內幕,Gold,0
@@ -80,15 +75,14 @@
 79,索爾之子,Son of Saul,7.5
 80,銀河街道,Galaxy Turnpike,4.5
 81,為愛而生,Ma ma  ,0
-82,久美子的奇異旅程,Kumiko,
+82,久美子的奇異旅程,Kumiko,NA
 83,教父啟示錄,Black Souls,6.8
 84,妖怪手錶,Yo-kai Watch the Movie,0
 85,極地奇蹟,Midnight Sun,7.3
 86,恐龍當家,The Good Dinosaur,6.8
 87,惡棍英雄:死侍,Deadpool,8.1
 88,八惡人,The Hateful Eight ,0
-89,震盪,Concussion,7.1
-90,效應,Concussion,7.1
+89,震盪效應,Concussion,7.1
 91,傲慢與偏見與殭屍,Pride and Prejudice and Zombies ,0
 92,單身啪啪啪,How to Be Single  ,0
 93,驚爆焦點,Spotlight,8.1
@@ -107,7 +101,7 @@
 106,年輕氣盛,Youth,7.4
 107,不存在的房間,Room,8.2
 108,假掰新郎,Marry Me!  ,0
-109,臥虎藏龍2,Crouching Tiger,
+109,臥虎藏龍2,Crouching Tiger,NA
 110,岸邊之旅,Journey to the Shore,6.3
 111,全面攻佔2,London Has Fallen,5.9
 112,託陰,The Boy,6
@@ -128,7 +122,7 @@
 127,少年彌賽亞,The Young Messiah  ,0
 128,叛逆年代,Life,0
 129,謊言迷宮,Labyrinth Of Lies,0
-130,狐仙麗莎煞煞煞,Liza,
+130,狐仙麗莎煞煞煞,Liza,NA
 131,被遺忘的新娘,A Bride for Rip Van Winkle,7.4
 132,黑白,Mole Of Life,0
 133,功夫熊貓3,Kung Fu Panda 3,7.2
@@ -161,17 +155,15 @@
 160,居住正義,99 Homes   ,0
 161,快樂告別的方法,The Farewell Party,7.1
 162,乳白色的裸女,Foujita,6.2
-163,殘穢: ,The Inerasable,6
-164,被詛咒的房間,The Inerasable,6
+163,殘穢: 被詛咒的房間,The Inerasable,6
 165,為什麼貓都叫不來,Neko Nanka Yondemo Kona,0
 166,愛重逢以後,Valley of Love,5.7
 167,蜂狂,Stung,5
-168,失控謊言,White Lies,
+168,失控謊言,White Lies,NA
 169,情慾莊園,Eva Braun,3.4
 170,惡鄰纏身2,Neighbors 2: Sorority Rising ,0
 171,金錢怪獸,Money Monster,6.6
-172,X戰警:,X-Men: Apocalypse,7.2
-173,天啟,X-Men: Apocalypse,7.2
+172,X戰警:天啟,X-Men: Apocalypse,7.2
 174,魔境夢遊2,Alice Through the Looking Glass ,0
 175,幸福百分百,Mother's Day,5.6
 176,禁愛世界,Equals,6.1
@@ -187,9 +179,9 @@
 186,走音天后,Florence Foster Jenkins  ,0
 187,火星異種,Terra Formars,4.9
 188,魔宮魅影,Phantom of the Theatre,5.2
-189,我愛妳,,
+189,我愛妳,,NA
 190,天才無限家,The Man Who Knew Infinity ,0
-191,愛,,
+191,愛,,NA
 192,真愛有夠殺,Mr. Right  ,0
 193,羊男的冰島冒險,Rams,7.4
 194,瘋狂假面2,HK: Forbidden Super Hero The Abnormal Crisis,0
@@ -200,8 +192,7 @@
 199,帝國毀滅: 關鍵13分鐘,13 Minutes,7
 200,魔物戀人,Spring,6.7
 201,特務超級爸,Spy Time,6.1
-202,忍者龜2: ,Teenage Mutant Ninja Turtles: Out of the Shadows,6
-203,破影而出,Teenage Mutant Ninja Turtles: Out of the Shadows,6
+202,忍者龜2: 破影而出,Teenage Mutant Ninja Turtles: Out of the Shadows,6
 204,厲陰宅2,The Conjuring 2,7.5
 205,假會徵信社,The Nice Guys,7.4
 206,ID4星際終結者2,Independence Day 2: Resurgence,0
@@ -226,8 +217,7 @@
 225,春色蕩漾,Swung,4.4
 226,沉默一瞬,The Look of Silence,8.3
 227,水手服與機關槍,Sailor Suit and Machine Gun: Graduation,5
-228,漢娜鄂蘭,Vita Activa: The Spirit of Hannah Arendt,7.6
-229,─思想的行動,Vita Activa: The Spirit of Hannah Arendt,7.6
+228,漢娜鄂蘭─思想的行動,Vita Activa: The Spirit of Hannah Arendt,7.6
 230,泰山傳奇,The Legend of Tarzan,6.4
 231,寒戰2,Cold War 2,NA
 232,魔鬼剋星,Ghostbusters,7.8
@@ -260,7 +250,7 @@
 259,變裝皇后萬萬歲,Viva  ,0
 260,狂虐性告白,Wild In Blue ,0
 261,沉默茱麗葉,Julieta,7.1
-262,不只是閨蜜,Me,
+262,不只是閨蜜,Me,NA
 263,山河故人,Mountains May Depart,6.8
 264,自殺突擊隊,Suicide Squad,6.5
 265,吹夢巨人,The BFG,6.5
@@ -339,8 +329,7 @@
 338,NY單身日記,Maggie's Plan,6.3
 339,性愛巴弒,Deeper,0
 340,超自然研究會,Haunted Campus,NA
-341,遊戲王:,Yu-Gi-Oh!: The Dark Side of Dimensions ,0
-342,次元的黑暗面,Yu-Gi-Oh!: The Dark Side of Dimensions ,0
+341,遊戲王:次元的黑暗面,Yu-Gi-Oh!: The Dark Side of Dimensions ,0
 343,時空叛逃者,Time Renegades,0
 344,大藝術家與我,Me and Kaminski,6.9
 345,天才柏金斯,Genius,6.6
@@ -350,8 +339,7 @@
 349,會計師,The Accountant ,0
 350,神隱任務2,Jack Reacher 2: Never Go Back ,0
 351,奇異博士,Doctor Strange,7.9
-352,怒火,Deepwater Horizon ,0
-353,地平線,Deepwater Horizon ,0
+352,怒火地平線,Deepwater Horizon ,0
 354,地獄,Inferno,6.3
 355,碟仙2,Ouija 2,0
 356,獵愛大臨演,The Together Project,0

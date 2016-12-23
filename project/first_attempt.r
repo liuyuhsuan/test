@@ -9,39 +9,69 @@ library(RCurl)
 library(httr)
 Sys.setlocale(category = "LC_ALL", locale = "cht")
 #==========================================================
-path="https://ndshen.github.io/test/movieList.html"
+path="https://ndshen.github.io/test/movieList2.html"
 temp=getURL(path ,encoding="utf-8")
 xmldoc=htmlParse(temp, encoding="utf-8")
 movieTitle   <- xpathSApply(xmldoc, "//div//td//a", xmlValue)
 movieTitle   <- gsub("\n", "", movieTitle)
 movieTitle   <- gsub("\t", "", movieTitle)
-
 movieUrl     <- xpathSApply(xmldoc, "//div//td//@href")
-movieUrl=gsub("2016", '',movieUrl)
-movieUrl=gsub("2015", '',movieUrl)
-movieUrl=gsub("2017", '',movieUrl)
-movieUrl=gsub("moviedata", '',movieUrl)
-movieUrl=gsub("2016", '',movieUrl)
-movieUrl=gsub("htm", '',movieUrl)
-movieUrl=gsub("/", '',movieUrl)
-movieUrl=gsub("\\.", '',movieUrl)
-movieUrl=gsub("\n", '',movieUrl)
-movieUrl=gsub("\t", '',movieUrl)
-for(i in 1: length(movieUrl)){
-  x=gsub("(?!^)(?=[[:upper:]])", " ", movieUrl[[i]], perl=T)
-  movieUrl[i]=x
-}
-#====================================================
-setwd("C:\\Users\\User\\Desktop\\大二上\\test\\project")
-df2=read.csv("movieList2.0.csv")
-movieUrl=df2[,3]
-movieTitle=df2[,2]
+n=length(movieTitle)
+englishName=vector(length=n)
+subpath="http://www.truemovie.com/"
+for(i in 316:n){
+ 
+  
+  Erroresult<- tryCatch({
+    engNamePath=paste0(subpath, movieUrl[i])
+    temp=getURL(engNamePath ,encoding="utf-8")
+    xmldoc=htmlParse(temp, encoding="utf-8")
+  }, warning = function(war) {
+    print(paste("MY_WARNING:  ", movieTitle[i]))
+  }, error = function(err) {
+    print(paste("MY_ERROR:  ", movieTitle[i]))
+    next
+  }, finally = {
+    print(paste("End Try&Catch", movieTitle[i]))
+  })
+  
+  whichName=NULL
+  for(j in 1:5){
+    xpath1="//td/p["
+    xpath2=as.character(j)
+    xpath3="]"
+    xpath4=paste0(xpath1, xpath2, xpath3)
+    whichName=xpathSApply(xmldoc, xpath4, xmlValue)
+    test=substring(whichName, first=1, last=8)
+    if("-^au|W!G"==test){
+      break
+    }
+    else if(j==5){
+      whichName="Error"
+    }
+  }
+  englishName[i]   <- whichName
+  englishName[i]   <- gsub("\n", "", englishName[i])
+  englishName[i]   <- gsub("\t", "", englishName[i])
+  englishName[i]   <- substr(englishName[i], 9, nchar(englishName[i]))
 
+  nameLength=nchar(englishName[i])
+  o=strsplit(englishName[i],"")[[1]]
+  
+  k2=0
+  for(k in nameLength:1){
+    if(o[k]!=" "){
+      break
+    }
+    k2=k2+1
+  }
+  englishName[i]=substring(englishName[i], 1, nameLength-k2)
+}
 
 #=============================================================
 rating=vector(length=length(movieTitle))
 for(i in 1:length(movieTitle)){
-  movie=movieUrl[i]
+  movie=englishName[i]
   id=0
   searchList=search_by_title(movie)
   
@@ -63,7 +93,32 @@ for(i in 1:length(movieTitle)){
     print(paste("End Try&Catch", movie))
   })
 }
-movieList=data.frame(movieTitle, movieUrl, rating)
+movieList=data.frame(movieTitle, englishName, rating)
+
+#=======================================================================
+movieList$movieTitle=as.character(movieList$movieTitle)
+movieList$englishName=as.character(movieList$englishName)
+ram=movieList[1,2]
+for(i in 2:n){
+  if(movieList[i,2]==ram){
+    newName<-paste0(movieList[i-1, 1], movieList[i,1])
+    levels(movieList[1])<-c(levels(movieList[1]), newName)
+    movieList[i-1 ,1]=newName
+    movieList=movieList[-i,]
+    i=i-1
+  }
+  ram=movieList[i,2]
+}
+
+write.table(movieList, file = "C:/Users/User/Desktop/大二上/test/project/movieList4.0.csv")
+
+#===========================================================
+setwd("C:\\Users\\User\\Desktop\\大二上\\test\\project")
+movieList=read.csv("movieList4.0.csv")
+movieList[1]=NULL
+rating=movieList[,3]
+englishName=movieList[,2]
+movieTitle=movieList[,1]
 #===========================================================
 
 startNo = 3600
