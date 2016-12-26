@@ -121,8 +121,8 @@ englishName=movieList[,2]
 movieTitle=movieList[,1]
 #===========================================================
 
-startNo = 3600
-endNo   = 4855
+startNo = 3596
+endNo   = 4952
 subPath <- "https://www.ptt.cc/bbs/movie/index"
 alldata = data.frame()
 for( pid in startNo:endNo )
@@ -146,31 +146,79 @@ for( pid in startNo:endNo )
   })
 }
 #======================================================================
-popular<-list()
-good<-list()
-bad<-list()
+popular<-vector(length=length(movieTitle))
+good1<-vector(length=length(movieTitle))
+good2<-vector(length=length(movieTitle))
+good3<-vector(length=length(movieTitle))
+good4<-vector(length=length(movieTitle))
+bad1<-vector(length=length(movieTitle))
+bad2<-vector(length=length(movieTitle))
 for(movieListIndex in 1 : length(movieTitle)){
   movieName<-movieTitle[movieListIndex]
   frequency=0
-  goodNum=0
-  badNum=0
+  good1Num=0
+  good2Num=0
+  good3Num=0
+  good4Num=0
+  bad1Num=0
+  bad2Num=0
   for(i in 1:nrow(alldata)){
     if(grepl(movieName, alldata[i, 1])){
       frequency=frequency+1
       if(grepl("好雷", alldata[i,1])){
-        goodNum=goodNum+1
+        good1Num=good1Num+1
+      }
+      else if(grepl("普好雷", alldata[i, 1])){
+        good1Num=good1Num+1
+      }
+      else if(grepl("普偏好雷", alldata[i, 1])){
+        good1Num=good1Num+1
+      }
+      else if(grepl("好無雷", alldata[i, 1])){
+        good1Num=good1Num+1
+      }
+      else if(grepl("中上雷", alldata[i, 1])){
+        good2Num=good2Num+1
+      }
+      else if(grepl("大好雷", alldata[i, 1])){
+        good3Num=good3Num+1
+      }
+      else if(grepl("超好雷", alldata[i, 1])){
+        good4Num=good4Num+1
       }
       else if(grepl("負雷", alldata[i, 1])){
-        badNum=badNum+1
+        bad1Num=bad1Num+1
+      }
+      else if(grepl("負無雷", alldata[i, 1])){
+        bad1Num=bad1Num+1
+      }
+      else if(grepl("大負雷", alldata[i, 1])){
+        bad2Num=bad2Num+1
       }
     }
   }
   popular[movieListIndex]=frequency
-  good[movieListIndex]=goodNum
-  bad[movieListIndex]=badNum
+  good1[movieListIndex]=good1Num
+  good2[movieListIndex]=good2Num
+  good3[movieListIndex]=good3Num
+  good4[movieListIndex]=good4Num
+  bad1[movieListIndex]=bad1Num
+  bad2[movieListIndex]=bad2Num
 }
-final<-cbind(movieTitle, popular, good, bad)
-names(final)<-c("Name", "Popular", "Good", "Bad")
+pttRate=data.frame(movieTitle, good1, good2, good3, good4, bad1, bad2)
+write.table(pttRate, file = "C:/Users/User/Desktop/大二上/test/project/pttRate.csv")
+
+good<-vector(length=length(movieTitle))
+bad<-vector(length=length(movieTitle))
+for(i in 1: length(movieTitle)){
+  good[i]=good1[i]+2*good2[i]+3*good3[i]+4*good4[i]
+  bad[i]=2*bad1[i]+4*bad2[i]      
+}
+movieList[c("pttPopularity","pttGood", "pttBad")] <-NA
+movieList$pttPopularity=popular
+movieList$pttGood=good
+movieList$pttBad=bad
+write.table(movieList, file = "C:/Users/User/Desktop/大二上/test/project/movieList5.0.csv")
 #=======================================================================
 write.table(alldata, file = "C:/Users/User/Desktop/大二上/test/project/pttTitle.csv")
 write.table(final, file = "C:/Users/User/Desktop/大二上/test/project/final.csv")
