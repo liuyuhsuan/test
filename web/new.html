@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Bootstrap Theme Company Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <link href="new.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script async src="new.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  
+
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">Ninth group</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#Analysis">MOVIES</a></li>
+        <li><a href="#websites">WEBSITES</a></li>
+        <li><a href="#pricing">MEMBERS</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+ 
+  <p>search for your movie</p> 
+  <div class="w3-container" style="margin-top:50px">
+  <h3>空白鍵查看所有電影</h3>
+
+  <input class="w3-input w3-border " type="text" placeholder="Search for names.." id="myInput" onkeyup="search()">
+  <ul class="w3-ul w3-margin-top" id="myUL" style="display:none">
+ 
+
+
+
+
+
+
+
+
+  </ul>
+</div>
+
+<script>
+
+
+function search() {
+    var input=0, filter, ul, li, a, i;
+    input = document.getElementById("myInput"); 
+    
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+
+    for (i = 0; i < li.length; i++) {
+        if (li[i].innerHTML.toUpperCase().indexOf(filter) > 0 ) {
+          $('#myUL').show();
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+ 
+}
+</script>
+
+
+
+      
+
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid text-center">
+  <div class="row">
+
+    
+      <h1>About our websites</h1>
+      <h4></h4><br>
+      <p></p>
+      <br>
+    </div>
+    
+  </div>
+</div>
+
+
+
+<!-- Container (Analysis Section) -->
+<div id="Analysis" class="container-fluid text-center">
+  <h1>Analysis</h1>
+     <script>
+  // title放使用者輸入的電影名稱
+
+  var title = '怪獸與牠們的產地'
+  var width = 800, height = 800; 
+  var svg = d3.select("#Analysis").append("svg")
+              .attr("width", width)
+              .attr("height", height)
+              .append("g")
+          .attr("transform", "translate(150,150)");
+  var color = d3.scale.category20();
+  d3.csv("https://ndshen.github.io/test/project/movieList5.0.csv", piechart); //這樣寫以後可以加很多其他函式
+  
+  function piechart(data){
+    var arc = d3.svg.arc()
+              .outerRadius(120)
+                  .innerRadius(50);
+        var pie = d3.layout.pie()
+                   .sort(null) 
+                 .value(function(d) {return d[title]}); // 這個方法也能選good and bad    
+    var g1 = svg.selectAll("g")
+                .data(pie(data))
+                .enter()
+                .append("g");
+        g1 .append("path")
+             .attr("d", arc)
+             .style("fill", function(d,i) { 
+                return color(i) });
+    
+    g1 .append("text")
+             .attr("transform", function(d){
+            return "translate("+ arc.centroid(d) +")";
+            //centroid()任何形狀的中心點
+          })
+           .attr("text-anchor", "middle")
+             .text(function(d){
+              return d.data.movieTitle + "," + d.value ; //在每個形狀的中央插入文字
+          })
+          .attr("fill", "white"); 
+      g1 .append("text")
+             .attr(
+                {"X":10,
+                "y":10}
+            //位置
+          )
+           .attr("text-anchor", "middle")
+             .text(function(d){
+              console.log(d)
+              return title ; //在每個形狀的中央插入文字
+          })
+          .attr("fill", "black"); 
+
+      }
+  </script>
+  <script>
+    d3.csv("https://ndshen.github.io/test/project/movieList5.0.csv", function(data){
+      console.table(data);
+      d3.select(".w3-ul w3-margin-top").text(JSON.stringlyfy(data))
+    });
+  </script>
+  <h4></h4>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+</div>
+
+
+
+
+  <h2 class="text-center">Popular movies</h2>
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+      <img src="http://1img.mgtv.com/preview/internettv/sp_images/ott/2016/dongman/292476/20160411105438321-new.jpg" class="img-circle"  width="500" height="400" style="margin-left: 25%">
+        
+  <br>
+      </div>
+      <div class="item">
+       <img src="https://3.bp.blogspot.com/-q43hXQrhagI/V61YaWNmsQI/AAAAAAAAFJQ/xZBDGh1NIlsJ_WXdoRy76AxMSjCxNqozwCLcB/w1200-h630-p-nu/fantastic-beasts-ew-cover-450x600.jpg" class="img-circle"  width="340" height="400" style="margin-left: 33%">
+        <br>
+      </div>
+      <div class="item">
+          <img src="https://static1.squarespace.com/static/56a7b1eb69a91aab7988743c/t/580538cf20099e3d0e62b735/1476737236575/" class="img-circle"  width="450" height="300" style="margin-left: 25%">
+<br>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<!-- Container (websites Section) -->
+<div id="websites" class="container-fluid text-center bg-grey">
+  <h2>Related Website</h2><br>
+  <h4></h4>
+  <div class="row text-center slideanim">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="https://yt3.ggpht.com/-OLGp0EBxaJ0/AAAAAAAAAAI/AAAAAAAAAAA/4BdFndi9ol4/s900-c-k-no/photo.jpg" width="150" height="200">
+        <p></p>
+        <a href="https://www.rottentomatoes.com/"><strong>Rotten Tomato</strong></a>
+  
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="https://censorshipinamerica.files.wordpress.com/2013/03/imdb.jpg"  width="300" height="200">
+        <p> </p>
+        <a href="http://www.imdb.com/"><strong>IMDb</strong></a>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+      <p></p>
+        <img src="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/1936588_161803091402_1137378_n.jpg?oh=2ae40b9c2132e39d11fb774dc4d700f8&oe=58B99C86" alt="San Francisco" width="300" height="300">
+      <p></p>
+       <a href="http://www.truemovie.com/tairelease.htm">
+       <br>
+       
+       <strong>True movie</strong></a>
+
+      </div>
+    </div>
+  </div><br>
+  
+
+
+<!-- Container (Pricing Section) -->
+<div id="pricing" class="container-fluid">
+  <div class="text-center">
+    <h2>Members</h2>
+    <h4>-five members in ninth gruop</h4>
+  </div>
+  <div class="row slideanim">
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>羅良瑋</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>血型</strong> Ｏ</p>
+          <p><strong>星座</strong> 金牛座</p>
+          <p><strong>系所 年級</strong> 資訊管理學系 二年級</p>
+          <p><strong>興趣 </strong> 打排球 聽音樂 運動</p>
+          <p><strong></strong> </p>
+          <button class="btn btn-white btn-sm" href="https://www.facebook.com/profile.php?id=100000130788875&fref=ts" ><a href="https://www.facebook.com/peter.lo.1610?fref=ts">Facebook</a></button>
+        </div>
+        <div class="panel-footer">
+          <img src="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/14721601_1191128400951871_6251072441234097914_n.jpg?oh=d02254e68217e3c31e93855c9bf72fd8&oe=58F434A5" style="width:150px"></img>
+          
+        </div>
+      </div>      
+    </div>     
+
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>沈品耀</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>身高</strong> 183 cm</p>
+          <p><strong>來自</strong> 薇閣高中</p>
+          <p><strong>系所 年級</strong> 資訊管理學系 二年級</p>
+          <p><strong>興趣 </strong>打排球 打ＬＯＬ</p>
+          <p><strong></strong> </p>
+          <button class="btn btn-white btn-sm" href="https://www.facebook.com/profile.php?id=100000130788875&fref=ts" ><a href="https://www.facebook.com/profile.php?id=100000130788875&fref=ts"> Facebook</a></button>
+        </div>
+        <div class="panel-footer">
+          <img src="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/995161_703450756335944_705016001_n.jpg?oh=ed798c9d9795bcf4101e8a7a53edff5a&oe=58C3B203" style="width:150px"></img>
+          
+        </div>
+      </div>      
+    </div>     
+
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>何青儒</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>台中人</strong></p>
+          <p><strong>來自</strong> 武陵高中</p>
+          <p><strong>系所 年級</strong> 外國語文學系 一年級</p>
+          <p><strong>興趣 </strong> </p>
+          <p><strong></strong> </p>
+          <button class="btn btn-white btn-sm" href="https://www.facebook.com/herchingru?fref=ts" ><a href="https://www.facebook.com/herchingru?fref=ts"> Facebook</a></button>
+        </div>
+        <div class="panel-footer">
+          <img src="https://scontent-tpe1-1.xx.fbcdn.net/v/t31.0-8/15137422_962726237167119_5971764580317938651_o.jpg?oh=2ea92507400feac205a2c5b2dbc60c0b&oe=58F1B54A" style="width:150px"></img>
+          
+        </div>
+      </div>      
+    </div>     
+
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>王筱嵐</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong></strong> </p>
+          <p><strong>來自</strong> 台南女中</p>
+          <p><strong>系所 年級</strong> 會計學系 </p>
+          <p><strong>興趣 </strong>肚皮舞</p>
+          <p><strong></strong> </p>
+          <button class="btn btn-white btn-sm" href="https://www.facebook.com/profile.php?id=100000293426473&fref=ts" ><a href="https://www.facebook.com/profile.php?id=100000293426473&fref=ts"> Facebook</a></button>
+        </div>
+        <div class="panel-footer">
+          <img src="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/12390946_1100512793301824_1366443451612559835_n.jpg?oh=714d5e5b69831fb871f5bffa0e05fcc5&oe=58C82339" style="width:150px"></img>
+          
+        </div>
+      </div>      
+    </div>     
+
+        <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>劉育瑄</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong></strong> </p>
+          <p><strong></strong></p>
+          <p><strong>系所 年級</strong> 工商管理學系 二年級</p>
+          <p><strong> </strong></p>
+          <p><strong></strong> </p>
+          <button class="btn btn-white btn-sm" href="" ><a href="https://www.facebook.com/profile.php?id=100010044491904"> Facebook</a></button>
+        </div>
+        <div class="panel-footer">
+          <img src="https://scontent-tpe1-1.xx.fbcdn.net/v/t31.0-8/14902713_364081933936620_1909742801539912848_o.jpg?oh=af6a10a7630e02fdeecdd2ce950ef6a4&oe=58ED2CA3" style="width:150px"></img>
+          
+        </div>
+      </div>      
+    </div>     
+  </div>
+  </div>
+  
+<!-- Container (Contact Section) -->
+
+
+
+</body>
+</html>
+

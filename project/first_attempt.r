@@ -221,7 +221,4 @@ movieList$pttBad=bad
 write.table(movieList, file = "C:/Users/User/Desktop/大二上/test/project/movieList5.0.csv")
 #=======================================================================
 write.table(alldata, file = "C:/Users/User/Desktop/大二上/test/project/pttTitle.csv")
-write.table(final, file = "C:/Users/User/Desktop/大二上/test/project/final.csv")
-write.table(movieTitle, file = "C:/Users/User/Desktop/大二上/test/project/movieTitle.csv")
-write.table(movieList, file = "C:/Users/User/Desktop/大二上/test/project/movieList.csv")
-test <- read.table("C:/Users/User/Desktop/大二上/test/project/final.csv", sep = ",")
+write.table(movieTitle, file = "C:/Users/User/Desktop/大二上/test/project/movieTitle.csv")                                                               
