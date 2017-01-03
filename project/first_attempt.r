@@ -19,7 +19,7 @@ movieUrl     <- xpathSApply(xmldoc, "//div//td//@href")
 n=length(movieTitle)
 englishName=vector(length=n)
 subpath="http://www.truemovie.com/"
-for(i in 316:n){
+for(i in 1:n){
  
   
   Erroresult<- tryCatch({

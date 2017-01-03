@@ -166,11 +166,12 @@ function search() {
 
       }
   </script>
-  <script>
-    d3.csv("https://ndshen.github.io/test/project/movieList5.0.csv", function(data){
+  <script type="text/javascript">
+    d3.csv("https://ndshen.github.io/test/project/movieNameList2.csv", function(data){
       console.table(data);
-      d3.select(".w3-ul w3-margin-top").text(JSON.stringlyfy(data))
     });
+    a=[1,2,3];
+      d3.select("#myUL").selectAll("li").data(a).enter().append("li").text(function (d){return d;});
   </script>
   <h4></h4>
   <br>
