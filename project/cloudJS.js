@@ -60,7 +60,7 @@
         .on("end", draw);
 
       svg = element.append("svg");
-      vis = svg.append("g").attr("transform", "translate(" + [layout.size()[0] >> 1, layout.size()[1] >> 1] + ")").attr("href","#Analysis").attr("onclick","applepie(d.text)");
+      vis = svg.append("g").attr("transform", "translate(" + [layout.size()[0] >> 1, layout.size()[1] >> 1] + ")");
 
       update();
       svg.on('resize', function() { update() });
@@ -109,13 +109,14 @@
         .style("fill", function(d) {
           return fill(d.text.toLowerCase());
         })
+      
         .text(function(d) {
           return d.text;
         })
         // clickable words
         .style("cursor", function(d, i) {
-          if (d.href) return 'pointer';
-        })
+           return 'pointer';
+        })  
         .on("mouseover", function(d, i) {
           if (d.href) {
             d3.select(this).transition().style('font-size', d.size + 3 + 'px');
@@ -127,7 +128,8 @@
           }
         })
         .on("click", function(d, i) {
-          if (d.href) window.location = d.href;
+          window.location = "#Analysis";
+          applepie(d.text);
         });
 
       vis.transition()
