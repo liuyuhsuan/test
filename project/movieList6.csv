@@ -1,366 +1,371 @@
-ï»¿,movieTitle,englishName,rating,pttPopularity,pttGood,pttBad
-1,é­”é«®ç²¾éˆ,Trolls,6.7,6,4,0
-2,æ¯”åˆ©æ—æ©çš„ä¸­å ´æˆ°äº‹,Billy Lynn!|s Long Halftime walk,0,85,47,4
-3,æ€ªç¸èˆ‡ç‰ å€‘çš„ç”¢åœ°,Fantastic Beasts and Where to Find Them,7.9,133,34,10
-4,æ­»äº¡ç­†è¨˜æœ¬:æ±ºæˆ°æ–°ä¸–ç•Œ,Death Note: Light up the NEW world,0,6,1,0
-5,çƒˆç«é‚Šå¢ƒ,Free State of Jones,6.9,9,1,0
-6,æƒ¡é­”è›™ç”·,Museum,0,19,4,0
-7,æˆ‘å€‘çš„è¼•ç‹‚å¹´ä»£,Everybody Wants Some,NA,6,1,0
-8,é‹¼éµè‹±é›„,Hacksaw Ridge,8.6,106,31,2
-9,æ€ªç‰©ä¾†æ•²é–€,A Monster Calls,7.7,38,19,0
-10,è…¸è…¸æè½Ÿè¶´,Sausage Party,6.4,25,8,0
-11,è·¯æ˜“çš„ç¬¬9æ¢å‘½,The 9th Life of Louis Drax,6.4,5,1,0
-12,è‚²é™°æˆ¿,Shut In,4.5,10,4,4
-13,è¿½æ®ºå„å¤œå¢æ—,Blair Witch,5.3,6,2,0
-14,é‹¼éµéº¥æ–¯,Max Steel,4.8,12,0,6
-15,ä¸€è·¯é †é¢¨,Godspeed,4.5,22,11,4
-16,æ¯›å°å­©é¸é‚Šç«™,Who Gets the Dog?,4.7,1,0,0
-17,çµ•å‘½ç˜‹äººé™¢,Villmark asylum,0,0,0,0
-18,é™°æ¡ƒè¡“,Cherry Tree,4.1,0,0,0
-19,æš—æ®ºæ•™å®¤ï¼š365æ—¥å€’æ•¸è¨ˆæ™‚,Assassination Classroom the Movie: 365 Days!| Time,0,0,0,0
-20,ç©å‘½å…‰é ­,Public Friends,0,3,0,0
-21,åªè¦æˆ‘é•·å¤§,Lokah Laqi!I,0,22,8,0
-22,ç©é…·å£ç—å­,The Preppie Connection,6.2,0,0,0
-23,ç»çµ¦ç±³å…¶æ—çš„ç”Ÿå‘½è²´å®¢,For Grace,7.4,6,1,0
-24,å¯†æ¢,The Age of Shadows,7.4,17,4,0
-25,å¤œè¡Œå‹•ç‰©,Nocturnal Animals,8,27,13,0
-26,æ¨‚ä¾†è¶Šæ„›ä½ ,La La Land,8.9,93,48,4
-27,æ˜Ÿéš›å¤§æˆ°å¤–å‚³:ä¿ ç›œä¸€è™Ÿ,Rogue One: A Star Wars Story,7.7,2,1,0
-28,æ˜Ÿéš›éå®¢,Passengers,5.8,49,17,12
-29,é•·åŸ,The Great Wall,5.6,28,0,6
-30,æ±ºæˆ°ç•°ä¸–ç•Œ5,Underworld: Blood Wars,6.3,7,0,4
-31,æ­¡æ¨‚å¥½è²éŸ³,Sing,7.3,40,8,2
-32,æœ€ç¾çš„å®‰æ’,Collateral Beauty,5.9,30,8,4
-33,æƒ±çˆ¸åé ­ç—›,Why Him?,NA,6,2,0
-34,åˆºå®¢æ•™æ¢,Assassin's Creed,8.3,30,1,2
-35,å¢®è½å¤©ä½¿,Fallen,7,5,1,2
-36,å¤±æ§éš§é“,Tunnel,0,11,1,0
-37,ä¸€è¬å…¬é‡Œçš„ç´„å®š,10,NA,23,9,0
-38,è–èª•æè½Ÿè¶´,FALSE,0,4,0,0
-39,æ“ºæ¸¡äºº,The Ferryman,4.7,20,2,12
-40,å¡å…§é™°,Incarnate,5.4,5,1,0
-41,çµ‚æ¥µè»Šé™£: é£†å‡ºé‡åœ,Nitro Rush,4.7,0,0,0
-42,é‡è¦‹è¡—è²“BOB,A Street Cat Named Bob,7.3,18,7,0
-43,ç‘ªéº—å¨œä¹‹æ©‹,Marina,7.3,1,1,0
-44,é€šéˆç¾äºº,Planetarium,5,1,0,0
-45,ä¸éå°±æ˜¯ä¸–ç•Œæœ«æ—¥,It's Only the End of the World,7.2,9,3,0
-46,æ–°å±…é¢¨æš´,The Salesman,8.5,10,5,0
-47,è¨˜æ†¶ä¹éŸ¿,Louder Than Bombs,6.6,9,3,0
-48,é‡‘çˆ†å…§å¹•,Gold,0,1,0,0
-49,å†è¦‹ç“¦åŸ,The Road to Mandalay,6.7,38,9,0
-50,é¡›çˆ¶äººç”Ÿ,Toni Erdmann,8.2,6,1,0
-51,æ€ªç‰©éŠæˆ²,Goosebumps,6.3,12,4,0
-52,ç¥é¬¼çµäºº,The Revenant,8,166,41,32
-53,å¤§è³£ç©º,The Big Short,7.8,51,25,0
-54,ç¬¬5æ¯€æ»…,The 5th Wave,5.2,7,3,2
-55,13å°æ™‚,13 Hours:The Secret Soldiers of Benghazi,0,31,13,4
-56,ç¿»è½‰å¹¸ç¦,Joy,6.6,16,4,2
-57,å¥³æ¬Šä¹‹è²,Suffragette,6.9,14,8,2
-58,æ„›åœ¨ä»–é„‰,Brooklyn,7.5,19,13,0
-59,å²å¸å¤«è³ˆä¼¯æ–¯,Steve Jobs,7.2,27,14,4
-60,å®‰è«¾ç‘ªéº—è,Anomalisa,7.3,13,10,0
-61,è‘‰å•3,Ip Man 3,7.1,53,16,2
-62,çè¶´å§Šå¦¹,Sisters,6,3,1,0
-63,é©šå¤©å·¨æµª,The Wave,7.6,7,3,0
-64,é˜¿å…¬æ­è²·å°¬,Dirty Grandpa,6,22,2,6
-65,å¯‚å¯å…¬è·¯,The End of the Tour,7.3,10,5,0
-66,å®¶æœ‰å…©å€‹çˆ¸,Daddy's Home,6.1,7,2,2
-67,æƒ¡å¥³è¨‚è£½æœ,The Dressmaker,7.1,13,4,0
-68,çµ‚æ¥µæ•‘æ´,Extraction,6.6,7,0,4
-69,é¼ ä¾†å¯¶4,Alvin and the Chipmunks: The Road Chip,5.1,0,0,0
-70,è–ç„:è€¶è·¯æ’’å†·,JeruZalem,0,3,0,2
-71,æˆ‘å€‘å…¨å®¶ä¸å¤ªç†Ÿ,We Are Family,5.6,5,2,2
-72,æ–°ä¸–ç´€ç¦çˆ¾æ‘©æ–¯,Sherlock: The Abominable Bride,0,31,13,10
-73,45å¹´,45 Years,7.1,16,8,0
-74,ç´¢çˆ¾ä¹‹å­,Son of Saul,7.5,16,12,0
-75,éŠ€æ²³è¡—é“,Galaxy Turnpike,4.5,5,0,0
-76,ç‚ºæ„›è€Œç”Ÿ,Ma ma,6.2,0,0,0
-77,ä¹…ç¾å­çš„å¥‡ç•°æ—…ç¨‹,Kumiko,NA,6,3,0
-78,æ•™çˆ¶å•Ÿç¤ºéŒ„,Black Souls,6.8,2,1,0
-79,å¦–æ€ªæ‰‹éŒ¶,Yo-kai Watch the Movie,0,14,2,0
-80,æ¥µåœ°å¥‡è¹Ÿ,Midnight Sun,7.3,2,0,2
-81,æé¾ç•¶å®¶,The Good Dinosaur,6.8,16,4,4
-82,æƒ¡æ£è‹±é›„:æ­»ä¾,Deadpool,8.1,3,1,0
-83,å…«æƒ¡äºº,The Hateful Eight,7.9,56,24,0
-84,éœ‡ç›ªæ•ˆæ‡‰,Concussion,7.1,12,5,0
-85,å‚²æ…¢èˆ‡åè¦‹èˆ‡æ®­å±,Pride and Prejudice and Zombies,5.8,11,5,0
-86,å–®èº«å•ªå•ªå•ª,How to Be Single,6.1,59,27,0
-87,é©šçˆ†ç„¦é»,Spotlight,8.1,89,48,0
-88,è·é­¯æ–¯ä¹‹çœ¼,Gods of Egypt,5.5,33,19,4
-89,ç¥å»š,Rookie Chef,NA,20,5,4
-90,ä¸¹éº¥å¥³å­©,The Danish Girl,7,92,29,2
-91,æ‰£æŠ¼å¹¸ç¦,Freeheld,6.5,15,5,4
-92,åæ¨¡å¤§é–“è«œ2,Zoolander 2,4.8,11,2,2
-93,å¤§å°¾é±¸é°»2,David Loman2,0,52,6,22
-94,éæ™®é€šå±æˆ€,Nina Forever,5.6,9,3,0
-95,è¥¿éŠè¨˜ä¹‹å­«æ‚Ÿç©ºä¸‰æ‰“ç™½éª¨ç²¾,The Monkey King 2,6,9,7,0
-96,å‹•ç‰©æ–¹åŸå¸‚,Zootopia,8.1,179,66,10
-97,äººç”ŸæŒ‰å€‹è®š,Like Life,0,18,3,2
-98,å¥½èŠå¡¢çš„é»‘åå–®,Trumbo,7.5,5,3,0
-99,é¬¼é–€é–‹,The Other Side of the Door,5.3,7,1,2
-100,å¹´è¼•æ°£ç››,Youth,7.4,7,3,0
-101,ä¸å­˜åœ¨çš„æˆ¿é–“,Room,8.2,61,33,0
-102,å‡æ°æ–°éƒ,Marry Me!,4.8,7,2,2
-103,è‡¥è™è—é¾2,Crouching Tiger,NA,8,1,0
-104,å²¸é‚Šä¹‹æ—…,Journey to the Shore,6.3,4,2,0
-105,å…¨é¢æ”»ä½”2,London Has Fallen,5.9,34,11,8
-106,è¨—é™°,The Boy,6,18,2,6
-107,èµ¤èª è€…,The Divergent Series: Allegiant,0,7,1,2
-108,è™è ä¿ å°è¶…äºº,Batman v Superman: Dawn of Justice,6.8,259,62,50
-109,å› ç‚ºæ„›ä½ ,Carol,7.2,53,24,0
-110,çµ•å‘½æ•‘æ´,The Finest Hours,6.8,31,10,0
-111,çª’å‘½åœ°,Colonia,0,15,5,0
-112,å°‘å¥³é›¢å®¶è¨˜,Mustang,7.7,11,10,0
-113,æƒ¡å¤œæ®ºæ©Ÿ,Exposed<U+00A0>,0,4,0,2
-114,ç„¡é™æ˜¥å…‰27,In The Room,0,6,3,0
-115,å¸•è’‚ç‘ªçš„é¡›å€’ä¸–ç•Œ,Patema Inverted,7.4,6,1,0
-116,å–®èº«å‹•ç‰©åœ’,The Lobster,7.1,70,45,0
-117,äº”æ˜Ÿç´šé­šå¹²å¥³,Welcome to Happy Days,0,30,12,6
-118,é¦¬å…‹ç™½,Macbeth,6.7,15,9,0
-119,éŒ¦è¡£è¡›â”€ç¹¡æ˜¥åˆ€,Brotherhood of Blades,0,0,0,0
-120,èé¬¼å¸«,Senior,0,7,3,2
-121,å°‘å¹´å½Œè³½äº,The Young Messiah,5.4,3,0,0
-122,å›é€†å¹´ä»£,Life,0,4,2,0
-123,è¬Šè¨€è¿·å®®,Labyrinth Of Lies,0,15,8,0
-124,ç‹ä»™éº—èç…ç…ç…,Liza,NA,3,1,0
-125,è¢«éºå¿˜çš„æ–°å¨˜,A Bride for Rip Van Winkle,7.4,21,10,0
-126,é»‘ç™½,Mole Of Life,0,23,3,2
-127,åŠŸå¤«ç†Šè²“3,Kung Fu Panda 3,7.2,20,4,2
-128,ç‹©çµè€…: å‡œå†¬ä¹‹æˆ°,The Huntsman Winter!|s War,0,0,0,0
-129,èˆ‡æ£®æ—å…±èˆ,The Jungle Book,7.6,37,15,2
-130,æ‘©å¤©æ¨“,High-Rise,5.7,25,6,2
-131,ç¾åœ‹éšŠé•·3,Captain America 3: Civil War,0,511,195,18
-132,ç§‘æ´›å¼—10è™Ÿåœ°çª–,10 Cloverfield Lane,7.3,32,20,0
-133,é£›èºå¥‡è¹Ÿ,Eddie the Eagle,7.4,56,31,0
-134,æ›è…¦è¡Œå‹•,Criminal,6.3,14,3,6
-135,éæ­»ä¸å¯,Friend Request,5.4,29,11,4
-136,åæ“Š,Blackway,5.1,12,6,4
-137,éæ³•999,Triple 9,6.3,10,0,2
-138,å¤©çœ¼è¡Œå‹•,Eye in the Sky,7.3,13,8,0
-139,æš—è‰²å¤©å ‚,Heaven In the Dark,0,9,3,0
-140,æ ¼é›·çš„äº”åé“é»‘å½±,Fifty Shades of Black,3.5,4,1,0
-141,å¤¢éŠäºé¦¬éœ,Embrace of the Serpent,8,1,0,0
-142,ç‰¹å·¥çˆºçˆº,The Bodyguard,6.1,14,1,8
-143,å¸ç‰¹æ¨‚å›ä¾†äº†ï¼,Look Who's Back,7.1,7,2,0
-144,æµé›¢è€…ä¹‹æ­Œ,Dheepan,7.2,0,0,0
-145,å¤§çŠ¯ç½ªå®¶,The Clan,7,9,6,0
-146,é‚£äº›å¹´ç‹‚ç†±æˆ€æƒ…,My Golden Days,6.9,1,0,0
-147,æ“ŠåŠå¤§å¸«,The Fencer,7.3,5,5,0
-148,æ€§æœ¬æ„›,Love,0,5,3,0
-149,å°‹ç§˜è¡—æ‹å®¢,Finding Vivian Maier,7.7,6,1,0
-150,æ‰å¦–è¨˜,Monster Hunt,6.2,1,0,0
-151,è¨ˆç¨‹äººç”Ÿ,Taxi,6.9,12,4,0
-152,è·¯é‚Šé‡é¤,Kaili Blues,7.2,17,12,2
-153,æ­»æœŸå¤§å…¬é–‹,The Brand New Testament,7.2,22,11,0
-154,å±…ä½æ­£ç¾©,99 Homes,7.1,2,1,0
-155,å¿«æ¨‚å‘Šåˆ¥çš„æ–¹æ³•,The Farewell Party,7.1,8,4,0
-156,ä¹³ç™½è‰²çš„è£¸å¥³,Foujita,6.2,4,2,0
-157,æ®˜ç©¢: è¢«è©›å’’çš„æˆ¿é–“,The Inerasable,6,0,0,0
-158,ç‚ºä»€éº¼è²“éƒ½å«ä¸ä¾†,Neko Nanka Yondemo Kona,0,4,2,0
-159,æ„›é‡é€¢ä»¥å¾Œ,Valley of Love,5.7,6,2,0
-160,èœ‚ç‹‚,Stung,5,1,0,0
-161,å¤±æ§è¬Šè¨€,White Lies,NA,74,19,2
-162,æƒ…æ…¾èŠåœ’,Eva Braun,3.4,0,0,0
-163,æƒ¡é„°çºèº«2,Neighbors 2: Sorority Rising,5.8,16,3,4
-164,é‡‘éŒ¢æ€ªç¸,Money Monster,6.6,56,15,0
-165,Xæˆ°è­¦:å¤©å•Ÿ,X-Men: Apocalypse,7.2,32,18,0
-166,é­”å¢ƒå¤¢éŠ2,Alice Through the Looking Glass,6.3,0,0,0
-167,å¹¸ç¦ç™¾åˆ†ç™¾,Mother's Day,5.6,4,1,0
-168,ç¦æ„›ä¸–ç•Œ,Equals,6.1,17,5,2
-169,æˆ‘åª½çš„å¸Œè‡˜å©šç¦®,My Big Fat Greek Wedding 2,6.1,10,2,2
-170,å®‰å¨œè¯ç‰¹,The Faith of Anna Waters,3.8,8,1,6
-171,æœ€å¾Œä¸€å ‚èª²,The Final Lesson,6.5,5,3,0
-172,å¸åœ‹æˆ°ç¥,Baahubali: The Beginning,8.4,30,16,0
-173,åŒç´šç”Ÿ,Doukyuusei,7.7,1,0,0
-174,è¶…ç‹‚äº¨åˆ©,Hardcore Henry,6.8,25,5,2
-175,å‚»ç“œå‘éŒ¢è¡,Two Idiots,3.6,9,5,2
-176,å´©å£äººç”Ÿ,Demolition,7,19,14,2
-177,é€šéˆè¨ºç™‚å®¤,Body,0,6,2,2
-178,èµ°éŸ³å¤©å,Florence Foster Jenkins,7,46,18,2
-179,ç«æ˜Ÿç•°ç¨®,Terra Formars,4.9,18,3,4
-180,é­”å®®é­…å½±,Phantom of the Theatre,5.2,5,0,4
-181,æˆ‘æ„›å¦³,,NA,4,1,0
-182,å¤©æ‰ç„¡é™å®¶,The Man Who Knew Infinity,7.2,37,26,2
-183,æ„›,,NA,918,307,44
-184,çœŸæ„›æœ‰å¤ æ®º,Mr. Right,6.3,10,4,4
-185,ç¾Šç”·çš„å†°å³¶å†’éšª,Rams,7.4,3,2,0
-186,ç˜‹ç‹‚å‡é¢2,HK: Forbidden Super Hero The Abnormal Crisis,0,1,0,0
-187,åŒ—äº¬é‡ä¸Šè¥¿é›…åœ–ä¹‹ä¸äºŒæƒ…æ›¸,Book Of Love,0,19,7,0
-188,éº¥ç”°æ›¸é¦™,Ever Been to the Moon,0,0,0,0
-189,æ„›äººæ€ªç‰©,Closet Monster,7.3,5,4,0
-190,è¥¿è¥¿é‡Œçš„æ¼«é•·ç­‰å¾…,The Wait,4.7,2,1,0
-191,å¸åœ‹æ¯€æ»…: é—œéµ13åˆ†é˜,13 Minutes,7,0,0,0
-192,é­”ç‰©æˆ€äºº,Spring,6.7,2,2,0
-193,ç‰¹å‹™è¶…ç´šçˆ¸,Spy Time,6.1,0,0,0
-194,å¿è€…é¾œ2: ç ´å½±è€Œå‡º,Teenage Mutant Ninja Turtles: Out of the Shadows,6,0,0,0
-195,å²é™°å®…2,The Conjuring 2,7.5,137,58,4
-196,å‡æœƒå¾µä¿¡ç¤¾,The Nice Guys,7.4,26,14,2
-197,ID4æ˜Ÿéš›çµ‚çµè€…2,Independence Day 2: Resurgence,0,1,0,2
-198,ä¿ºç‰©èª!!,My Love Story!!,7.8,4,0,0
-199,é­”ç¸:å´›èµ·,Warcraft,0,28,10,2
-200,æˆ‘å°±è¦ä½ å¥½å¥½çš„,Me Before You,7.5,109,48,32
-201,ä¸‹å¥³çš„èª˜æƒ‘,The Handmaiden,8.1,83,23,0
-202,ä¿¡é•·å”å¥æ›²,Nobunaga Concerto: The Movie,6.2,15,6,2
-203,å‡ºç¥å…¥åŒ–2,Now You See Me: The Second Act,0,81,10,30
-204,æ¢­å“ˆäººç”Ÿ,A Hologram for the King,6.1,13,1,2
-205,èŒå­¸åœ’:å°‹æ‰¾ç£å¤,The M Riders Finding Pangu,0,0,0,0
-206,å¤¢ç¢å¤©å ‚,The Paradise Suite,7.3,7,3,0
-207,æ†¤æ€’é³¥ç©é›»å½±,Angry Birds,7.2,10,2,0
-208,æ–æ»¾é’æ˜¥æˆ€ç¿’æ›²,Sing Street,8,20,19,0
-209,å‚·ç‰©èª: <U+9244>è¡€ç¯‡,Kizumonogatari: I Tekketsu-hen,0,0,0,0
-210,æ·±æµ·é€ƒè„«,Pressure,5.7,1,0,0
-211,å¸«çˆ¶,The Final Master,7.3,47,18,0
-212,é‹æ²³æ€ªè«‡,The Canal,5.9,1,1,0
-213,ä¸–ç•Œä¹‹åº­,Dare to Be Wild,6.5,3,1,0
-214,é æ–¹ç¦æˆ€,From Afar,6.9,5,3,0
-215,æ®ºäººä¸€èˆ‰,The Act of Killing,8.2,2,1,0
-216,æ˜¥è‰²è•©æ¼¾,Swung,4.4,2,1,0
-217,æ²‰é»˜ä¸€ç¬,The Look of Silence,8.3,2,1,0
-218,æ°´æ‰‹æœèˆ‡æ©Ÿé—œæ§,Sailor Suit and Machine Gun: Graduation,5,0,0,0
-219,æ¼¢å¨œé„‚è˜­â”€æ€æƒ³çš„è¡Œå‹•,Vita Activa: The Spirit of Hannah Arendt,7.6,1,0,0
-220,æ³°å±±å‚³å¥‡,The Legend of Tarzan,6.4,21,3,2
-221,å¯’æˆ°2,Cold War 2,NA,88,24,18
-222,é­”é¬¼å‰‹æ˜Ÿ,Ghostbusters,7.8,105,32,6
-223,æ˜Ÿéš›çˆ­éœ¸æˆ°3,Star Trek Beyond,7.2,7,2,0
-224,ç¥é¬¼èªè­‰5,Jason Bourne,6.7,21,6,2
-225,å¯µç‰©ç•¶å®¶,The Secret Life of Pets,6.6,38,4,6
-226,æµ·åº•ç¸½å‹•å“¡2,Finding Dory,7.5,52,24,4
-227,ä¸­å¤®æƒ…çˆ†å“¡,Central Intelligence,6.4,13,2,2
-228,å†°åŸæ­·éšªè¨˜5,Ice Age: Collision Course,5.7,3,0,0
-229,æ¥µæ¨‚å®¿èˆ,Happy Dorm,NA,44,5,24
-230,é¬¼æ’•çœ ,Before I Wake,6.1,9,1,4
-231,åœ‹å®šæ®ºæˆ®æ—¥3,The Purge: Election Year,6,10,3,2
-232,èˆåŠ›é‡æ“Š,High Strung,6.5,3,1,0
-233,é¬¼é—œç‡ˆ,Lights Out,6.4,38,14,2
-234,é˜¿å§è¬è¬é†‰,Bad Moms,6.3,12,3,0
-235,å“†å•¦Aå¤¢2016,36th Doraemon the Movie: Nobita and the Birth of Japan 2016,0,0,0,0
-236,ææ€–é„°äºº,Creepy,6.4,9,3,6
-237,æš—æ®ºæ•™å®¤2,Assassination Classroom 2,0,0,0,0
-238,ç•°æ¬¡å…ƒå‡¶é–“,The Diabolical,4.7,1,0,0
-239,ååµæ¢æŸ¯å—20,Detective Conan: The Darkest Nightmare,7.3,0,0,0
-240,å¥³äººæ²‰ç¡æ™‚,While the Women Are Sleeping,6,2,0,2
-241,å…­å¼„å’–å•¡é¤¨,At Cafe 6,0,126,39,30
-242,è™è ä¿ : è‡´å‘½ç©ç¬‘,Batman: The Killing Joke,6.6,1,1,0
-243,æœ€é…·çš„ä¸€å¤©,The Most Beautiful Day,6.9,7,4,0
-244,å¤§åŒ,The Chinese Mayor,7.4,15,5,0
-245,æ„›æƒ…æœªä¾†,Things to Come,6.7,7,2,0
-246,å¤æ—¥æƒ…äº‹,This Summer Feeling,6.9,1,1,0
-247,æ­¡è¿ä¾†åˆ°ç¾åœ‹,UMRIKA,0,5,1,0
-248,å®¶æœ‰æ´›æ´›,Lolo,5.7,4,2,0
-249,è®Šè£çš‡åè¬è¬æ­²,Viva,0,6,4,0
-250,ç‹‚è™æ€§å‘Šç™½,Wild In Blue,0,1,0,0
-251,æ²‰é»˜èŒ±éº—è‘‰,Julieta,7.1,1,0,0
-252,ä¸åªæ˜¯é–¨èœœ,Me,NA,5,0,0
-253,å±±æ²³æ•…äºº,Mountains May Depart,6.8,6,4,0
-254,è‡ªæ®ºçªæ“ŠéšŠ,Suicide Squad,6.5,386,58,112
-255,å¹å¤¢å·¨äºº,The BFG,6.5,9,1,2
-256,è³“æ¼¢,Ben-Hur,8.1,27,10,4
-257,æ¥µé€Ÿç§’æ®º2,Mechanic: Resurrection,5.6,19,3,10
-258,å¦®å˜‰,Neerja,7.9,18,15,0
-259,æ¨“ä¸‹çš„æˆ¿å®¢,The Tenants Downstairs,NA,243,79,78
-260,çµ•é¯Šå³¶,The Shallows,6.4,29,13,2
-261,å±åŸ,Call Of Heroes,0,27,6,2
-262,æˆ‘çš„å“ˆæ¯”æƒ…äºº,Up for Love,6.3,2,1,0
-263,æ­£å®—å“¥å‰æ‹‰,Godzilla Resurgence,0,92,48,4
-264,é…·å¯¶: é­”å¼¦å‚³èªª,Kubo and the Two Strings,8,0,0,0
-265,ç«ç·šæå¯¶,War Dogs,7.2,17,6,0
-266,å‘½æ‡¸ç”Ÿæ­»ç·š,Life on the Line,5.2,3,1,0
-267,ç§‘æŠ€æµ©åŠ«,Cell,4.3,8,1,2
-268,å¤§é¡¯ç¥å¨,The Big Power,0,9,0,2
-269,å’–å•¡æ„›æƒ…,Cafe Society,6.7,12,6,2
-270,è²å­<U+202C> VS <U+202A>ä¼½æ¤°å­,Sadako vs Kayako,0,0,0,0
-271,å°ç¥å‚³å¥‡,League of Gods,4.5,8,0,6
-272,èˆªæµ·ç‹é›»å½±Gold,One Piece Film Gold,8.1,0,0,0
-273,éœ“è™¹æƒ¡é­”,The Neon Demon,6.3,10,2,4
-274,è Ÿç­†å°æ–°: çˆ†ç¡!,Crayon Shin-chan: Fast Asleep! Dreaming World Big Assault,0,0,0,0
-275,ä¸¹éº¥å…±å±…ç”Ÿæ´»,The Commune,6.6,1,0,0
-276,é†‰å¾Œä¹‹æ—…,Saint Amour,6.3,1,0,0
-277,é€²æ“Šçš„æ‘”è§’ç”·å­©,Young Wrestlers,6.8,2,0,2
-278,é›»å½±ç‰ˆæ«»æ¡ƒå°ä¸¸å­,CHIBI MARUKO CHAN: a boy from Italy,0,9,1,2
-279,å“­è²,The Wailing,7.5,78,24,12
-280,å¤§å¯©åˆ¤å®¶,The People vs. Fritz Bauer,7.2,5,2,0
-281,æš´äº‚å¤œ,'71,7.2,1,0,0
-282,å¾å¥½ä¹…ä»¥å‰å°±å–œæ­¡ä½ ,I!|ve always liked you -Confess Your Love Committee-Part 1,0,1,0,2
-283,é›¶æ—¥ç¶²è·¯æˆ°,Zero Days,7.8,1,1,0
-284,è½è¦‹æ„›ä½ çš„è²éŸ³,Loev,6.6,1,0,0
-285,åœ°ç„å“ªæœ‰é‚£éº¼HIGH,Too Young to Die,7.7,8,4,0
-286,åå¹´,Ten Years,7.3,78,16,2
-287,æˆ‘å‡ºå»ä¸€ä¸‹,I'm Off Then,6.2,12,5,0
-288,å¦‚æœé€™ä¸–ç•Œè²“æ¶ˆå¤±äº†,If Cats Disappeared from the World,7.4,33,19,6
-289,ç˜‹ç‹‚é‚çˆ¾å£«,Miles Ahead,6.5,3,1,0
-290,æ¨éŠ·å“¡ä¹‹æˆ€,Hedi,7.1,4,2,0
-291,è®ŠèŸ²äºº,Bite,4.9,2,0,2
-292,æ”»ä½”ç¾…æµ®å®®,Francofonia,6.6,3,0,0
-293,æ„›æƒ…å¤©æ–‡å­¸,Correspondence,5.9,13,3,4
-294,è³é‡‘çµäºº,Bounty Hunters,3.8,4,0,0
-295,æˆ‘çš„è€çˆ¸å–µæ˜Ÿäºº,Nine Lives,5.2,8,4,2
-296,å©šç¦®ç©å¾ˆå¤§,Mike and Dave Need Wedding Dates,6,3,0,0
-297,BJæœ‰å–œ,Bridget Jone's Baby,0,26,14,0
-298,ç¥é¬¼é§­å®¢:å²è«¾ç™»,Snowden,7.4,0,0,0
-299,æ€ªå¥‡å­¤å…’é™¢,Miss Peregrine's Home for Peculiar Children,7,77,25,14
-300,è˜‡çŠå¤«äººå°‹å©šè¨ˆ,Love & Friendship,6.6,6,3,0
-301,ç©å‘½ç›´æ’­,Nerve,6.7,28,9,0
-302,çµ‚æ¥µé£†é¶,Precious Cargo,4.6,7,1,0
-303,èµ´æ¹¯è¹ˆç«,Hell Or High Water,0,12,10,0
-304,æš«æ™‚åœæ­¢å‘¼å¸,Don't Breathe,7.2,49,22,12
-305,å±é€Ÿåˆ—è»Š,,0,890,210,144
-306,è–©åˆ©æ©Ÿé•·,Sully,7.7,76,41,4
-307,ä½¿å¾’è¡Œè€…,Line Walker,6.1,26,12,0
-308,çµ‚æ¥µèˆç­,Battle Of<U+00A0>Hip Hopera,0,4,0,2
-309,ç‰¹å²é¬¼å±‹,Abattoir,4.5,6,0,10
-310,é­”è©­,Morgan,5.8,5,0,4
-311,é¬¼æ‰“ç‰†,Take me home,0,8,2,0
-312,æ’æ——æ”»åŸå¸‚,Where to Invade Next,7.6,3,1,0
-313,æˆ‘çš„è›‹ç”·æƒ…äºº,My Egg Boy,NA,22,7,14
-314,Sé¢¨æš´,S Storm,4.8,1,0,0
-315,å ±å‘Šç­é•·7,No Sir,0,9,1,4
-316,ç´ç²¹é¾å…‹,Green Room,7.1,2,1,0
-317,ä»£è™Ÿ: éµé‰»è¡Œå‹•,Operation Chromite,6.4,1,1,0
-318,éæ™®é€šå‹ç”·,Chevalier,6.6,2,1,0
-319,æ®¿ä¸‹è¬è¬ç¨…,The Magnificent Nine,6.6,7,2,0
-320,è—¥å‘½çœŸç›¸,Misconduct,5.3,1,0,2
-321,æ˜å¤©åˆ¥å†ä¾†æ•²é–€,A Man Called Ove,7.6,20,12,0
-322,Lady's å°–é ­å€‘,Free the Nipple,3.8,0,0,0
-323,æ„›èˆ‡é»‘æš—çš„æ•…äº‹,A Tale of Love and Darkness,6.2,8,3,2
-324,ç™½æ™ä¹‹é›¨,Himeanole,7.6,5,3,0
-325,æ¯”æµ·é‚„æ·±,After the Storm,7.8,32,20,0
-326,å¸è¡€é¬¼è…¥éˆè¨ºç™‚,Therapy for a Vampire,6.4,1,0,0
-327,æœ€å¾Œä¸€æ¬¡è‡ªç”±,Desierto,5.8,3,0,0
-328,NYå–®èº«æ—¥è¨˜,Maggie's Plan,6.3,9,3,0
-329,æ€§æ„›å·´å¼’,Deeper,0,1,0,0
-330,è¶…è‡ªç„¶ç ”ç©¶æœƒ,Haunted Campus,NA,2,0,0
-331,éŠæˆ²ç‹:æ¬¡å…ƒçš„é»‘æš—é¢,Yu-Gi-Oh!: The Dark Side of Dimensions,8.3,1,0,0
-332,æ™‚ç©ºå›é€ƒè€…,Time Renegades,0,6,2,0
-333,å¤§è—è¡“å®¶èˆ‡æˆ‘,Me and Kaminski,6.9,1,0,0
-334,å¤©æ‰æŸé‡‘æ–¯,Genius,6.6,9,4,0
-335,ç”œèœœçš„å“€å‚·,Bitter Honey,6,1,1,0
-336,æ¤ç‰©åœ–é‘‘,Evergreen Love,0,2,0,2
-337,é€å­é³¥,Storks,7,13,5,0
-338,æœƒè¨ˆå¸«,The Accountant,7.6,134,44,14
-339,ç¥éš±ä»»å‹™2,Jack Reacher 2: Never Go Back,0,15,1,8
-340,å¥‡ç•°åšå£«,Doctor Strange,7.9,274,68,20
-341,æ€’ç«åœ°å¹³ç·š,Deepwater Horizon,7.5,39,11,0
-342,åœ°ç„,Inferno,6.3,126,35,20
-343,ç¢Ÿä»™2,Ouija 2,0,1,0,0
-344,çµæ„›å¤§è‡¨æ¼”,The Together Project,0,0,0,0
-345,æ¹„å…¬æ²³è¡Œå‹•,Operation Mekong,7,11,1,6
-346,æ™‚å°šå¸åœ‹åˆç´„çš„é–‹å§‹,The Model,5.8,2,0,0
-347,èµ·æº:é¦–çˆ¾è»Šç«™,Seoul Station,6,1,0,0
-348,é¬¼æ‰è¦ç•¢æ¥­,Midnight at University,0,4,0,0
-349,ç‚ºå¦³èªªçš„è¬Š,The Light Between Oceans,7.2,14,6,4
-350,å·´é»èµ°éŸ³å¤©å,Marguerite,7,14,5,0
-351,ä½ çš„åå­—,Your Name,8.9,633,198,62
-352,æ„›æ˜¯ä¸€éš»è²“,Tomcat,5.3,3,1,0
-353,çµ•åœ°7é¨å£«,The Magnificent Seven,7.8,19,5,0
-354,ç¥å»šæ±äº¬å£¯éŠè¨˜,Ants On a Shrimp,0,6,4,0
-355,é¬¼é–‹é–€,The Disappointments Room,4.1,4,0,2
-356,å¹¸é‹æ˜¯æˆ‘,Happiness,7.8,5,1,0
-357,åˆ—è»Šä¸Šçš„å¥³å­©,The Girl on the Train,6.7,14,3,0
-358,å®Œç¾é™Œç”Ÿäºº,Perfect Strangers,7.7,22,14,0
-359,å¾·å¸ƒè¥¿æ£®æ—,Foret Debussy,7.3,14,3,4
-360,æˆ‘çš„å‹ç”·è€é—†,Do You See Me?,6.5,8,1,0
-361,é‡è¿”å¿ƒåŸé»,The Hollars,6.4,6,1,0
-362,æ€’,Rage,5,180,33,10
-363,ç¾åœ‹å¿ƒé¢¨æš´,American Pastoral,6.2,5,1,0
-364,å·²ç¶“å¾ˆæƒ³å¦³,Miss You Already,6.7,4,3,0
-365,ç¬¨è³Šæ¨‚ç›œå®¶,Masterminds,5.7,3,0,0
+	movieTitle	englishName	rating	pttPopularity	pttGood	pttBad
+1	Å]¾vºëÆF	Trolls	6.7	6	4	0
+2	¤ñ§QªL®¦ªº¤¤³õ¾Ô¨Æ	Billy Lynn!|s Long Halftime walk	0	85	47	4
+3	©ÇÃ~»P¨e­Ìªº²£¦a	Fantastic Beasts and Where to Find Them	7.9	133	34	10
+4	¦º¤`µ§°O¥»:¨M¾Ô·s¥@¬É	Death Note: Light up the NEW world	0	6	1	0
+5	¯P¤õÃä¹Ò	Free State of Jones	6.9	9	1	0
+6	´cÅ]µì¨k	Museum	0	19	4	0
+7	§Ú­Ìªº»´¨g¦~¥N	Everybody Wants Some	NA	6	1	0
+8	¿ûÅK­^¶¯	Hacksaw Ridge	8.6	106	31	2
+9	©Çª«¨ÓºVªù	A Monster Calls	7.7	38	19	0
+10	¸z¸z·dÅF­w	Sausage Party	6.4	25	8	0
+11	¸ô©öªº²Ä9±ø©R	The 9th Life of Louis Drax	6.4	5	1	0
+12	¨|³±©Ğ	Shut In	4.5	10	4	4
+13	°l±ş¤Ì©]ÂOªL	Blair Witch	5.3	6	2	0
+14	¿ûÅK³Á´µ	Max Steel	4.8	12	0	6
+15	¤@¸ô¶¶­·	Godspeed	4.5	22	11	4
+16	¤ò¤p«Ä¿ïÃä¯¸	Who Gets the Dog?	4.7	1	0	0
+17	µ´©RºÆ¤H°|	Villmark asylum	0	0	0	0
+18	³±®ç³N	Cherry Tree	4.1	0	0	0
+19	·t±ş±Ğ«Ç¡G365¤é­Ë¼Æ­p®É	Assassination Classroom the Movie: 365 Days!| Time	0	0	0	0
+20	ª±©R¥úÀY	Public Friends	0	3	0	0
+21	¥u­n§Úªø¤j	Lokah Laqi!I	0	22	8	0
+22	ª±»ÅÃaµl¤l	The Preppie Connection	6.2	0	0	0
+23	Ämµ¹¦Ì¨äªLªº¥Í©R¶Q«È	For Grace	7.4	6	1	0
+24	±K±´	The Age of Shadows	7.4	17	4	0
+25	©]¦æ°Êª«	Nocturnal Animals	8	27	13	0
+26	¼Ö¨Ó¶V·R§A	La La Land	8.9	93	48	4
+27	¬P»Ú¤j¾Ô¥~¶Ç:«Lµs¤@¸¹	Rogue One: A Star Wars Story	7.7	2	1	0
+28	¬P»Ú¹L«È	Passengers	5.8	49	17	12
+29	ªø«°	The Great Wall	5.6	28	0	6
+30	¨M¾Ô²§¥@¬É5	Underworld: Blood Wars	6.3	7	0	4
+31	Åw¼Ö¦nÁn­µ	Sing	7.3	40	8	2
+32	³Ì¬üªº¦w±Æ	Collateral Beauty	5.9	30	8	4
+33	´oª¨°¾ÀYµh	Why Him?	NA	6	2	0
+34	¨ë«È±Ğ±ø	Assassin's Creed	8.3	30	1	2
+35	¼Z¸¨¤Ñ¨Ï	Fallen	7	5	1	2
+36	¥¢±±ÀG¹D	Tunnel	0	11	1	0
+37	¤@¸U¤½¨½ªº¬ù©w	10	NA	23	9	0
+38	¸t½Ï·dÅF­w	FALSE	0	4	0	0
+39	Â\´ç¤H	The Ferryman	4.7	20	2	12
+40	¥d¤º³±	Incarnate	5.4	5	1	0
+41	²×·¥¨®°}: öt¥X­«³ò	Nitro Rush	4.7	0	0	0
+42	¹J¨£µó¿ßBOB	A Street Cat Named Bob	7.3	18	7	0
+43	º¿ÄR®R¤§¾ô	Marina	7.3	1	1	0
+44	³qÆF¬ü¤H	Planetarium	5	1	0	0
+45	¤£¹L´N¬O¥@¬É¥½¤é	It's Only the End of the World	7.2	9	3	0
+46	·s©~­·¼É	The Salesman	8.5	10	5	0
+47	°O¾Ğ¥EÅT	Louder Than Bombs	6.6	9	3	0
+48	ª÷Ãz¤º¹õ	Gold	0	1	0	0
+49	¦A¨£¥Ë«°	The Road to Mandalay	6.7	38	9	0
+50	ÄA¤÷¤H¥Í	Toni Erdmann	8.2	6	1	0
+51	©Çª«¹CÀ¸	Goosebumps	6.3	12	4	0
+52	¯«°­Ây¤H	The Revenant	8	166	41	32
+53	¤j½æªÅ	The Big Short	7.8	51	25	0
+54	²Ä5·´·À	The 5th Wave	5.2	7	3	2
+55	13¤p®É	13 Hours:The Secret Soldiers of Benghazi	0	31	13	4
+56	Â½Âà©¯ºÖ	Joy	6.6	16	4	2
+57	¤kÅv¤§Án	Suffragette	6.9	14	8	2
+58	·R¦b¥L¶m	Brooklyn	7.5	19	13	0
+59	¥v«Ò¤Ò¸ë§B´µ	Steve Jobs	7.2	27	14	4
+60	¦w¿Õº¿ÄR²ï	Anomalisa	7.3	13	10	0
+61	¸­°İ3	Ip Man 3	7.1	53	16	2
+62	½M­w©n©f	Sisters	6	3	1	0
+63	Åå¤Ñ¥¨®ö	The Wave	7.6	7	3	0
+64	ªü¤½¼Ú¶R§¼	Dirty Grandpa	6	22	2	6
+65	±I¹æ¤½¸ô	The End of the Tour	7.3	10	5	0
+66	®a¦³¨â­Óª¨	Daddy's Home	6.1	7	2	2
+67	´c¤k­q»sªA	The Dressmaker	7.1	13	4	0
+68	²×·¥±Ï´©	Extraction	6.6	7	0	4
+69	¹«¨ÓÄ_4	Alvin and the Chipmunks: The Road Chip	5.1	0	0	0
+70	¸tº»:­C¸ô¼»§N	JeruZalem	0	3	0	2
+71	§Ú­Ì¥ş®a¤£¤Ó¼ô	We Are Family	5.6	5	2	2
+72	·s¥@¬öºÖº¸¼¯´µ	Sherlock: The Abominable Bride	0	31	13	10
+73	45¦~	45 Years	7.1	16	8	0
+74	¯Áº¸¤§¤l	Son of Saul	7.5	16	12	0
+75	»Èªeµó¹D	Galaxy Turnpike	4.5	5	0	0
+76	¬°·R¦Ó¥Í	Ma ma	6.2	0	0	0
+77	¤[¬ü¤lªº©_²§®Èµ{	Kumiko	NA	6	3	0
+78	±Ğ¤÷±Ò¥Ü¿ı	Black Souls	6.8	2	1	0
+79	§¯©Ç¤â¿ö	Yo-kai Watch the Movie	0	14	2	0
+80	·¥¦a©_Âİ	Midnight Sun	7.3	2	0	2
+81	®£Às·í®a	The Good Dinosaur	6.8	16	4	4
+82	´c´Ò­^¶¯:¦º¨Í	Deadpool	8.1	3	1	0
+83	¤K´c¤H	The Hateful Eight	7.9	56	24	0
+84	¾_Àú®ÄÀ³	Concussion	7.1	12	5	0
+85	¶ÆºC»P°¾¨£»PíL«Í	Pride and Prejudice and Zombies	5.8	11	5	0
+86	³æ¨­°Ô°Ô°Ô	How to Be Single	6.1	59	27	0
+87	ÅåÃzµJÂI	Spotlight	8.1	89	48	0
+88	²ü¾|´µ¤§²´	Gods of Egypt	5.5	33	19	4
+89	¯«¼p	Rookie Chef	NA	20	5	4
+90	¤¦³Á¤k«Ä	The Danish Girl	7	92	29	2
+91	¦©©ã©¯ºÖ	Freeheld	6.5	15	5	4
+92	¦W¼Ò¤j¶¡¿Ò2	Zoolander 2	4.8	11	2	2
+93	¤j§ÀÆtÅÁ2	David Loman2	0	52	6	22
+94	«D´¶³q«ÍÅÊ	Nina Forever	5.6	9	3	0
+95	¦è¹C°O¤§®]®©ªÅ¤T¥´¥Õ°©ºë	The Monkey King 2	6	9	7	0
+96	°Êª«¤è«°¥«	Zootopia	8.1	179	66	10
+97	¤H¥Í«ö­ÓÆg	Like Life	0	18	3	2
+98	¦nµÜ¶õªº¶Â¦W³æ	Trumbo	7.5	5	3	0
+99	°­ªù¶}	The Other Side of the Door	5.3	7	1	2
+100	¦~»´®ğ²±	Youth	7.4	7	3	0
+101	¤£¦s¦bªº©Ğ¶¡	Room	8.2	61	33	0
+102	°²ÙT·s­¦	Marry Me!	4.8	7	2	2
+103	ª×ªêÂÃÀs2	Crouching Tiger	NA	8	1	0
+104	©¤Ãä¤§®È	Journey to the Shore	6.3	4	2	0
+105	¥ş­±§ğ¦û2	London Has Fallen	5.9	34	11	8
+106	°U³±	The Boy	6	18	2	6
+107	¨ª¸ÛªÌ	The Divergent Series: Allegiant	0	7	1	2
+108	½¿½»«L¹ï¶W¤H	Batman v Superman: Dawn of Justice	6.8	259	62	50
+109	¦]¬°·R§A	Carol	7.2	53	24	0
+110	µ´©R±Ï´©	The Finest Hours	6.8	31	10	0
+111	²¿©R¦a	Colonia	0	15	5	0
+112	¤Ö¤kÂ÷®a°O	Mustang	7.7	11	10	0
+113	´c©]±ş¾÷	Exposed<U+00A0>	0	4	0	2
+114	µL­­¬K¥ú27	In The Room	0	6	3	0
+115	©¬¸¦º¿ªºÄA­Ë¥@¬É	Patema Inverted	7.4	6	1	0
+116	³æ¨­°Êª«¶é	The Lobster	7.1	70	45	0
+117	¤­¬P¯Å³½¤z¤k	Welcome to Happy Days	0	30	12	6
+118	°¨§J¥Õ	Macbeth	6.7	15	9	0
+119	ÀA¦ç½Ã¢wÂ¸¬K¤M	Brotherhood of Blades	0	0	0	0
+120	»D°­®v	Senior	0	7	3	2
+121	¤Ö¦~À±ÁÉ¨È	The Young Messiah	5.4	3	0	0
+122	«q°f¦~¥N	Life	0	4	2	0
+123	ÁÀ¨¥°g®c	Labyrinth Of Lies	0	15	8	0
+124	ª°¥PÄR²ï·Ù·Ù·Ù	Liza	NA	3	1	0
+125	³Q¿ò§Ñªº·s®Q	A Bride for Rip Van Winkle	7.4	21	10	0
+126	¶Â¥Õ	Mole Of Life	0	23	3	2
+127	¥\¤Òºµ¿ß3	Kung Fu Panda 3	7.2	20	4	2
+128	¬¼ÂyªÌ: »ş¥V¤§¾Ô	The Huntsman Winter!|s War	0	0	0	0
+129	»P´ËªL¦@»R	The Jungle Book	7.6	37	15	2
+130	¼¯¤Ñ¼Ó	High-Rise	5.7	25	6	2
+131	¬ü°ê¶¤ªø3	Captain America 3: Civil War	0	511	195	18
+132	¬ì¬¥¥±10¸¹¦aµ¢	10 Cloverfield Lane	7.3	32	20	0
+133	­¸ÅD©_Âİ	Eddie the Eagle	7.4	56	31	0
+134	´«¸£¦æ°Ê	Criminal	6.3	14	3	6
+135	«D¦º¤£¥i	Friend Request	5.4	29	11	4
+136	¤ÏÀ»	Blackway	5.1	12	6	4
+137	«Dªk999	Triple 9	6.3	10	0	2
+138	¤Ñ²´¦æ°Ê	Eye in the Sky	7.3	13	8	0
+139	·t¦â¤Ñ°ó	Heaven In the Dark	0	9	3	0
+140	®æ¹pªº¤­¤Q¹D¶Â¼v	Fifty Shades of Black	3.5	4	1	0
+141	¹Ú¹C¨È°¨»¹	Embrace of the Serpent	8	1	0	0
+142	¯S¤u·İ·İ	The Bodyguard	6.1	14	1	8
+143	§l¯S¼Ö¦^¨Ó¤F¡I	Look Who's Back	7.1	7	2	0
+144	¬yÂ÷ªÌ¤§ºq	Dheepan	7.2	0	0	0
+145	¤j¥Ç¸o®a	The Clan	7	9	6	0
+146	¨º¨Ç¦~¨g¼öÅÊ±¡	My Golden Days	6.9	1	0	0
+147	À»¼C¤j®v	The Fencer	7.3	5	5	0
+148	©Ê¥»·R	Love	0	5	3	0
+149	´M¯µµó©ç«È	Finding Vivian Maier	7.7	6	1	0
+150	®»§¯°O	Monster Hunt	6.2	1	0	0
+151	­pµ{¤H¥Í	Taxi	6.9	12	4	0
+152	¸ôÃä³¥À\	Kaili Blues	7.2	17	12	2
+153	¦º´Á¤j¤½¶}	The Brand New Testament	7.2	22	11	0
+154	©~¦í¥¿¸q	99 Homes	7.1	2	1	0
+155	§Ö¼Ö§i§Oªº¤èªk	The Farewell Party	7.1	8	4	0
+156	¨Å¥Õ¦âªº»r¤k	Foujita	6.2	4	2	0
+157	´İÂ©: ³Q¶A©Gªº©Ğ¶¡	The Inerasable	6	0	0	0
+158	¬°¤°»ò¿ß³£¥s¤£¨Ó	Neko Nanka Yondemo Kona	0	4	2	0
+159	·R­«³{¥H«á	Valley of Love	5.7	6	2	0
+160	¸Á¨g	Stung	5	1	0	0
+161	¥¢±±ÁÀ¨¥	White Lies	NA	74	19	2
+162	±¡¼¤²ø¶é	Eva Braun	3.4	0	0	0
+163	´c¾FÄñ¨­2	Neighbors 2: Sorority Rising	5.8	16	3	4
+164	ª÷¿ú©ÇÃ~	Money Monster	6.6	56	15	0
+165	X¾ÔÄµ:¤Ñ±Ò	X-Men: Apocalypse	7.2	32	18	0
+166	Å]¹Ò¹Ú¹C2	Alice Through the Looking Glass	6.3	0	0	0
+167	©¯ºÖ¦Ê¤À¦Ê	Mother's Day	5.6	4	1	0
+168	¸T·R¥@¬É	Equals	6.1	17	5	2
+169	§Ú¶ıªº§ÆÃ¾±BÂ§	My Big Fat Greek Wedding 2	6.1	10	2	2
+170	¦w®RµØ¯S	The Faith of Anna Waters	3.8	8	1	6
+171	³Ì«á¤@°ó½Ò	The Final Lesson	6.5	5	3	0
+172	«Ò°ê¾Ô¯«	Baahubali: The Beginning	8.4	30	16	0
+173	¦P¯Å¥Í	Doukyuusei	7.7	1	0	0
+174	¶W¨g¦ë§Q	Hardcore Henry	6.8	25	5	2
+175	¶Ì¥Ê¦V¿ú½Ä	Two Idiots	3.6	9	5	2
+176	±YÃa¤H¥Í	Demolition	7	19	14	2
+177	³qÆF¶EÀø«Ç	Body	0	6	2	2
+178	¨«­µ¤Ñ¦Z	Florence Foster Jenkins	7	46	18	2
+179	¤õ¬P²§ºØ	Terra Formars	4.9	18	3	4
+180	Å]®c¾y¼v	Phantom of the Theatre	5.2	5	0	4
+181	§Ú·R©p		NA	4	1	0
+182	¤Ñ¤~µL­­®a	The Man Who Knew Infinity	7.2	37	26	2
+183	·R		NA	918	307	44
+184	¯u·R¦³°÷±ş	Mr. Right	6.3	10	4	4
+185	¦Ï¨kªº¦B®q«_ÀI	Rams	7.4	3	2	0
+186	ºÆ¨g°²­±2	HK: Forbidden Super Hero The Abnormal Crisis	0	1	0	0
+187	¥_¨Ê¹J¤W¦è¶®¹Ï¤§¤£¤G±¡®Ñ	Book Of Love	0	19	7	0
+188	³Á¥Ğ®Ñ­»	Ever Been to the Moon	0	0	0	0
+189	·R¤H©Çª«	Closet Monster	7.3	5	4	0
+190	¦è¦è¨½ªºº©ªøµ¥«İ	The Wait	4.7	2	1	0
+191	«Ò°ê·´·À: ÃöÁä13¤ÀÄÁ	13 Minutes	7	0	0	0
+192	Å]ª«ÅÊ¤H	Spring	6.7	2	2	0
+193	¯S°È¶W¯Åª¨	Spy Time	6.1	0	0	0
+194	§ÔªÌÀt2: ¯}¼v¦Ó¥X	Teenage Mutant Ninja Turtles: Out of the Shadows	6	0	0	0
+195	¼F³±¦v2	The Conjuring 2	7.5	137	58	4
+196	°²·|¼x«HªÀ	The Nice Guys	7.4	26	14	2
+197	ID4¬P»Ú²×µ²ªÌ2	Independence Day 2: Resurgence	0	1	0	2
+198	­Íª«»y!!	My Love Story!!	7.8	4	0	0
+199	Å]Ã~:±U°_	Warcraft	0	28	10	2
+200	§Ú´N­n§A¦n¦nªº	Me Before You	7.5	109	48	32
+201	¤U¤kªº»¤´b	The Handmaiden	8.1	83	23	0
+202	«Hªø¨ó«µ¦±	Nobunaga Concerto: The Movie	6.2	15	6	2
+203	¥X¯«¤J¤Æ2	Now You See Me: The Second Act	0	81	10	30
+204	±ô«¢¤H¥Í	A Hologram for the King	6.1	13	1	2
+205	µŞ¾Ç¶é:´M§ä½Y¥j	The M Riders Finding Pangu	0	0	0	0
+206	¹Ú¸H¤Ñ°ó	The Paradise Suite	7.3	7	3	0
+207	¼««ã³¾ª±¹q¼v	Angry Birds	7.2	10	2	0
+208	·nºu«C¬KÅÊ²ß¦±	Sing Street	8	20	19	0
+209	¶Ëª«»y: <U+9244>¦å½g	Kizumonogatari: I Tekketsu-hen	0	0	0	0
+210	²`®ü°k²æ	Pressure	5.7	1	0	0
+211	®v¤÷	The Final Master	7.3	47	18	0
+212	¹Bªe©Ç½Í	The Canal	5.9	1	1	0
+213	¥@¬É¤§®x	Dare to Be Wild	6.5	3	1	0
+214	»·¤è¸TÅÊ	From Afar	6.9	5	3	0
+215	±ş¤H¤@Á|	The Act of Killing	8.2	2	1	0
+216	¬K¦â¿ººy	Swung	4.4	2	1	0
+217	¨IÀq¤@Àş	The Look of Silence	8.3	2	1	0
+218	¤ô¤âªA»P¾÷Ãöºj	Sailor Suit and Machine Gun: Graduation	5	0	0	0
+219	º~®R¶kÄõ¢w«ä·Qªº¦æ°Ê	Vita Activa: The Spirit of Hannah Arendt	7.6	1	0	0
+220	®õ¤s¶Ç©_	The Legend of Tarzan	6.4	21	3	2
+221	´H¾Ô2	Cold War 2	NA	88	24	18
+222	Å]°­«g¬P	Ghostbusters	7.8	105	32	6
+223	¬P»Úª§ÅQ¾Ô3	Star Trek Beyond	7.2	7	2	0
+224	¯«°­»{ÃÒ5	Jason Bourne	6.7	21	6	2
+225	Ãdª«·í®a	The Secret Life of Pets	6.6	38	4	6
+226	®ü©³Á`°Ê­û2	Finding Dory	7.5	52	24	4
+227	¤¤¥¡±¡Ãz­û	Central Intelligence	6.4	13	2	2
+228	¦B­ì¾úÀI°O5	Ice Age: Collision Course	5.7	3	0	0
+229	·¥¼Ö±JªÙ	Happy Dorm	NA	44	5	24
+230	°­¼¹¯v	Before I Wake	6.1	9	1	4
+231	°ê©w±ş¼®¤é3	The Purge: Election Year	6	10	3	2
+232	»R¤O­«À»	High Strung	6.5	3	1	0
+233	°­Ãö¿O	Lights Out	6.4	38	14	2
+234	ªü©j¸U¸U¾K	Bad Moms	6.3	12	3	0
+235	ÎG°ÕA¹Ú2016	36th Doraemon the Movie: Nobita and the Birth of Japan 2016	0	0	0	0
+236	®£©Æ¾F¤H	Creepy	6.4	9	3	6
+237	·t±ş±Ğ«Ç2	Assassination Classroom 2	0	0	0	0
+238	²§¦¸¤¸¤¿¶¡	The Diabolical	4.7	1	0	0
+239	¦W°»±´¬_«n20	Detective Conan: The Darkest Nightmare	7.3	0	0	0
+240	¤k¤H¨IºÎ®É	While the Women Are Sleeping	6	2	0	2
+241	¤»§Ë©@°ØÀ]	At Cafe 6	0	126	39	30
+242	½¿½»«L: ­P©Rª±¯º	Batman: The Killing Joke	6.6	1	1	0
+243	³Ì»Åªº¤@¤Ñ	The Most Beautiful Day	6.9	7	4	0
+244	¤j¦P	The Chinese Mayor	7.4	15	5	0
+245	·R±¡¥¼¨Ó	Things to Come	6.7	7	2	0
+246	®L¤é±¡¨Æ	This Summer Feeling	6.9	1	1	0
+247	Åwªï¨Ó¨ì¬ü°ê	UMRIKA	0	5	1	0
+248	®a¦³¬¥¬¥	Lolo	5.7	4	2	0
+249	ÅÜ¸Ë¬Ó¦Z¸U¸U·³	Viva	0	6	4	0
+250	¨g­h©Ê§i¥Õ	Wild In Blue	0	1	0	0
+251	¨IÀq¯üÄR¸­	Julieta	7.1	1	0	0
+252	¤£¥u¬O»Ó»e	Me	NA	5	0	0
+253	¤sªe¬G¤H	Mountains May Depart	6.8	6	4	0
+254	¦Û±ş¬ğÀ»¶¤	Suicide Squad	6.5	386	58	112
+255	§j¹Ú¥¨¤H	The BFG	6.5	9	1	2
+256	»«º~	Ben-Hur	8.1	27	10	4
+257	·¥³t¬í±ş2	Mechanic: Resurrection	5.6	19	3	10
+258	©g¹Å	Neerja	7.9	18	15	0
+259	¼Ó¤Uªº©Ğ«È	The Tenants Downstairs	NA	243	79	78
+260	µ´ÃT®q	The Shallows	6.4	29	13	2
+261	¦M«°	Call Of Heroes	0	27	6	2
+262	§Úªº«¢¤ñ±¡¤H	Up for Love	6.3	2	1	0
+263	¥¿©v­ô¦N©Ô	Godzilla Resurgence	0	92	48	4
+264	»ÅÄ_: Å]©¶¶Ç»¡	Kubo and the Two Strings	8	0	0	0
+265	¤õ½u±ÇÄ_	War Dogs	7.2	17	6	0
+266	©RÄa¥Í¦º½u	Life on the Line	5.2	3	1	0
+267	¬ì§Ş¯E§T	Cell	4.3	8	1	2
+268	¤jÅã¯««Â	The Big Power	0	9	0	2
+269	©@°Ø·R±¡	Cafe Society	6.7	12	6	2
+270	­s¤l<U+202C> VS <U+202A>¦÷·¦¤l	Sadako vs Kayako	0	0	0	0
+271	«Ê¯«¶Ç©_	League of Gods	4.5	8	0	6
+272	¯è®ü¤ı¹q¼vGold	One Piece Film Gold	8.1	0	0	0
+273	ÀO­i´cÅ]	The Neon Demon	6.3	10	2	4
+274	Äúµ§¤p·s: ÃzºÎ!	Crayon Shin-chan: Fast Asleep! Dreaming World Big Assault	0	0	0	0
+275	¤¦³Á¦@©~¥Í¬¡	The Commune	6.6	1	0	0
+276	¾K«á¤§®È	Saint Amour	6.3	1	0	0
+277	¶iÀ»ªººL¨¤¨k«Ä	Young Wrestlers	6.8	2	0	2
+278	¹q¼vª©Äå®ç¤p¤Y¤l	CHIBI MARUKO CHAN: a boy from Italy	0	9	1	2
+279	­úÁn	The Wailing	7.5	78	24	12
+280	¤j¼f§P®a	The People vs. Fritz Bauer	7.2	5	2	0
+281	¼É¶Ã©]	'71	7.2	1	0	0
+282	±q¦n¤[¥H«e´N³ßÅw§A	I!|ve always liked you -Confess Your Love Committee-Part 1	0	1	0	2
+283	¹s¤éºô¸ô¾Ô	Zero Days	7.8	1	1	0
+284	Å¥¨£·R§AªºÁn­µ	Loev	6.6	1	0	0
+285	¦aº»­ş¦³¨º»òHIGH	Too Young to Die	7.7	8	4	0
+286	¤Q¦~	Ten Years	7.3	78	16	2
+287	§Ú¥X¥h¤@¤U	I'm Off Then	6.2	12	5	0
+288	¦pªG³o¥@¬É¿ß®ø¥¢¤F	If Cats Disappeared from the World	7.4	33	19	6
+289	ºÆ¨gÁÚº¸¤h	Miles Ahead	6.5	3	1	0
+290	±À¾P­û¤§ÅÊ	Hedi	7.1	4	2	0
+291	ÅÜÂÎ¤H	Bite	4.9	2	0	2
+292	§ğ¦ûÃ¹¯B®c	Francofonia	6.6	3	0	0
+293	·R±¡¤Ñ¤å¾Ç	Correspondence	5.9	13	3	4
+294	½àª÷Ây¤H	Bounty Hunters	3.8	4	0	0
+295	§Úªº¦Ñª¨Øp¬P¤H	Nine Lives	5.2	8	4	2
+296	±BÂ§ª±«Ü¤j	Mike and Dave Need Wedding Dates	6	3	0	0
+297	BJ¦³³ß	Bridget Jone's Baby	0	26	14	0
+298	¯«°­Àb«È:¥v¿Õµn	Snowden	7.4	0	0	0
+299	©Ç©_©t¨à°|	Miss Peregrine's Home for Peculiar Children	7	77	25	14
+300	Ä¬¬À¤Ò¤H´M±B­p	Love & Friendship	6.6	6	3	0
+301	ª±©Rª½¼½	Nerve	6.7	28	9	0
+302	²×·¥öt¹v	Precious Cargo	4.6	7	1	0
+303	­u´öÁĞ¤õ	Hell Or High Water	0	12	10	0
+304	¼È®É°±¤î©I§l	Don't Breathe	7.2	49	22	12
+305	«Í³t¦C¨®		0	890	210	144
+306	ÂÄ§Q¾÷ªø	Sully	7.7	76	41	4
+307	¨Ï®{¦æªÌ	Line Walker	6.1	26	12	0
+308	²×·¥»R¯Z	Battle Of<U+00A0>Hip Hopera	0	4	0	2
+309	¯S¼F°­«Î	Abattoir	4.5	6	0	10
+310	Å]¸Ş	Morgan	5.8	5	0	4
+311	°­¥´Àğ	Take me home	0	8	2	0
+312	´¡ºX§ğ«°¥«	Where to Invade Next	7.6	3	1	0
+313	§Úªº³J¨k±¡¤H	My Egg Boy	NA	22	7	14
+314	S­·¼É	S Storm	4.8	1	0	0
+315	³ø§i¯Zªø7	No Sir	0	9	1	4
+316	¯ÇºéÃe§J	Green Room	7.1	2	1	0
+317	¥N¸¹: ÅK»Ì¦æ°Ê	Operation Chromite	6.4	1	1	0
+318	«D´¶³q«¬¨k	Chevalier	6.6	2	1	0
+319	·µ¤U¸U¸Uµ|	The Magnificent Nine	6.6	7	2	0
+320	ÃÄ©R¯u¬Û	Misconduct	5.3	1	0	2
+321	©ú¤Ñ§O¦A¨ÓºVªù	A Man Called Ove	7.6	20	12	0
+322	Lady's ¦yÀY­Ì	Free the Nipple	3.8	0	0	0
+323	·R»P¶Â·tªº¬G¨Æ	A Tale of Love and Darkness	6.2	8	3	2
+324	¥Õ±Ş¤§«B	Himeanole	7.6	5	3	0
+325	¤ñ®üÁÙ²`	After the Storm	7.8	32	20	0
+326	§l¦å°­¸{ÆF¶EÀø	Therapy for a Vampire	6.4	1	0	0
+327	³Ì«á¤@¦¸¦Û¥Ñ	Desierto	5.8	3	0	0
+328	NY³æ¨­¤é°O	Maggie's Plan	6.3	9	3	0
+329	©Ê·R¤Ú·I	Deeper	0	1	0	0
+330	¶W¦ÛµM¬ã¨s·|	Haunted Campus	NA	2	0	0
+331	¹CÀ¸¤ı:¦¸¤¸ªº¶Â·t­±	Yu-Gi-Oh!: The Dark Side of Dimensions	8.3	1	0	0
+332	®ÉªÅ«q°kªÌ	Time Renegades	0	6	2	0
+333	¤jÃÀ³N®a»P§Ú	Me and Kaminski	6.9	1	0	0
+334	¤Ñ¤~¬fª÷´µ	Genius	6.6	9	4	0
+335	²¢»eªº«s¶Ë	Bitter Honey	6	1	1	0
+336	´Óª«¹ÏÅ²	Evergreen Love	0	2	0	2
+337	°e¤l³¾	Storks	7	13	5	0
+338	·|­p®v	The Accountant	7.6	134	44	14
+339	¯«Áô¥ô°È2	Jack Reacher 2: Never Go Back	0	15	1	8
+340	©_²§³Õ¤h	Doctor Strange	7.9	274	68	20
+341	«ã¤õ¦a¥­½u	Deepwater Horizon	7.5	39	11	0
+342	¦aº»	Inferno	6.3	126	35	20
+343	ºĞ¥P2	Ouija 2	0	1	0	0
+344	Ây·R¤jÁ{ºt	The Together Project	0	0	0	0
+345	µD¤½ªe¦æ°Ê	Operation Mekong	7	11	1	6
+346	®É©|«Ò°ê¦X¬ùªº¶}©l	The Model	5.8	2	0	0
+347	°_·½:­ºº¸¨®¯¸	Seoul Station	6	1	0	0
+348	°­¤~­n²¦·~	Midnight at University	0	4	0	0
+349	¬°©p»¡ªºÁÀ	The Light Between Oceans	7.2	14	6	4
+350	¤Ú¾¤¨«­µ¤Ñ¦Z	Marguerite	7	14	5	0
+351	§Aªº¦W¦r	Your Name	8.9	633	198	62
+352	·R¬O¤@°¦¿ß	Tomcat	5.3	3	1	0
+353	µ´¦a7ÃM¤h	The Magnificent Seven	7.8	19	5	0
+354	¯«¼pªF¨Ê§§¹C°O	Ants On a Shrimp	0	6	4	0
+355	°­¶}ªù	The Disappointments Room	4.1	4	0	2
+356	©¯¹B¬O§Ú	Happiness	7.8	5	1	0
+357	¦C¨®¤Wªº¤k«Ä	The Girl on the Train	6.7	14	3	0
+358	§¹¬ü­¯¥Í¤H	Perfect Strangers	7.7	22	14	0
+359	¼w¥¬¦è´ËªL	Foret Debussy	7.3	14	3	4
+360	§Úªº«¬¨k¦ÑÁó	Do You See Me?	6.5	8	1	0
+361	­«ªğ¤ß­ìÂI	The Hollars	6.4	6	1	0
+362	«ã	Rage	5	180	33	10
+363	¬ü°ê¤ß­·¼É	American Pastoral	6.2	5	1	0
+364	¤w¸g«Ü·Q©p	Miss You Already	6.7	4	3	0
+365	²Â¸é¼Öµs®a	Masterminds	5.7	3	0	0
+	¨H«~Ä£					
+	¦ó«C¾§					
+	Ã¹¨}Ş³					
+	¼B¨|Ş±					
+	¤ı¾å´P					
