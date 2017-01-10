@@ -17,6 +17,15 @@ movieTitle   <- gsub("\n", "", movieTitle)
 movieTitle   <- gsub("\t", "", movieTitle)
 movieUrl     <- xpathSApply(xmldoc, "//div//td//@href")
 n=length(movieTitle)
+#========================================================
+for(i in 1:n){
+  xpath1="//td/p["
+  xpath2=as.character(j)
+  xpath3="]"
+  xpath4=paste0(xpath1, xpath2, xpath3)
+  whichName=xpathSApply(xmldoc, xpath4, xmlValue)
+}
+#=========================================================
 englishName=vector(length=n)
 subpath="http://www.truemovie.com/"
 for(i in 1:n){
