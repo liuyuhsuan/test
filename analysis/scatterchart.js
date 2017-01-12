@@ -124,8 +124,7 @@ var colors = {
   var scatOutEvent = function() {
 
     //hide tooltip
-    d3.select("#scatTooltip")
-      .style("display", "none");
+    
 
     //reset attributes of current data point
     var point = d3.select(this);
