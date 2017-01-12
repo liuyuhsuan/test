@@ -3,6 +3,26 @@ now because different rules were added somewhat
 hapzardly. It could probably benefit from some
 cleaning up, but it works for now. */
 
+.chart {
+
+}
+
+.main text {
+    font: 10px sans-serif;  
+}
+
+.axis line, .axis path {
+    shape-rendering: crispEdges;
+    stroke: black;
+    fill: none;
+}
+
+circle {
+    fill: steelblue;
+}
+
+
+
 
 body {
   font-family: sans-serif;
