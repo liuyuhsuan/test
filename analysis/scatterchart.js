@@ -79,6 +79,7 @@ var colors = {
           .attr("cx", function (d,i) { return x(d["rating"]); } )
           .attr("cy", function (d) { return y(d["pop"]); } )
           .attr("r", 8);
+          .attr("onclick", "statToAnal()")
     g.selectAll(".points")
           .on("mouseover", scatOverEvent)
           .on("mouseout", scatOutEvent);
@@ -150,3 +151,8 @@ d3.transition.prototype.moveToFront = function() {
   });
 };
   
+function statToanal(){
+  var point=d3.selct(this);
+  var id=point.datum().id;
+  appplepie(id);
+}
