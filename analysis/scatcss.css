@@ -113,7 +113,8 @@ svg .axis line {
 }
 
 .tooltip {
- display:block;
+  background-color:yellow;
+  display:block;
   width: auto;
   height: auto;
   padding: 10px;
