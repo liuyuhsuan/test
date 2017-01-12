@@ -82,14 +82,14 @@ var colors = {
   
     g.selectAll(".points")
           .on("mouseover", scatOverEvent)
-          .on("mouseout", scatOutEvent);
+          .on("mouseout", scatOutEvent)
           .on("click", function(d, i) {
-            var point=d3.select(this);
+          var point=d3.select(this);
           window.location = "#Analysis";
           applepie(point.datum().id);
           d3.select("#hide")
             .style("display","block");
-        })
+        });
   }
   ////////////////////////////////////////
   //  ADD SCATTER PLOT EVENT HANDLERS  ///
