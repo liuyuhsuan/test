@@ -20,7 +20,7 @@ var colors = {
       , width = 960 - margin.left - margin.right
       , height = 500 - margin.top - margin.bottom;
 
-  var chart = d3.select('body')
+  var chart = d3.select('#mainChart')
   .append('svg:svg')
   .attr('width', width + margin.right + margin.left)
   .attr('height', height + margin.top + margin.bottom)
