@@ -123,7 +123,7 @@ var colors = {
   //handler for leaving a scatter point (restore radius, hide tooltip)
   var scatOutEvent = function() {
 
-    //hide tooltip
+    
     
 
     //reset attributes of current data point
