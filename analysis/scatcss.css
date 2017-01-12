@@ -93,7 +93,7 @@ svg .axis line {
 }
 
 .tooltip {
-	display: none;
+	display:none;
   position: absolute;
   width: auto;
   height: auto;

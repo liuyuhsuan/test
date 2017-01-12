@@ -1,8 +1,41 @@
- d3.csv("https://ndshen.github.io/test/analysis.csv", scatter);
-  function scatter(data){
-    var margin = {top: 20, right: 15, bottom: 60, left: 60}
+ 
+var h = 450;
+var w = h;
+var pad = {left: 70, top: 60, right: 5, bottom: 105, middle: 120 };
+var corrInnerPad = 1;
+var scatInnerPad = 10;
+var radius = 8;
+var highlightRadius = 12
+var brushRadius = 7;
+var colors = {  
+                "group1": "crimson", 
+                "group2": "green", 
+                "group3": "darkslateblue"
+              };
+
+
+
+
+  var margin = {top: 20, right: 15, bottom: 60, left: 60}
       , width = 960 - margin.left - margin.right
       , height = 500 - margin.top - margin.bottom;
+
+  var chart = d3.select('body')
+  .append('svg:svg')
+  .attr('width', width + margin.right + margin.left)
+  .attr('height', height + margin.top + margin.bottom)
+  .attr('class', 'chart')
+
+  var main = chart.append('g')
+
+  .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
+  .attr('width', width)
+  .attr('height', height)
+  .attr('class', 'main')  
+
+
+ d3.csv("https://ndshen.github.io/test/analysisword.csv", scatter);
+  function scatter(data){
     
     var x = d3.scale.linear()
               .domain([0, d3.max(data, function(d) { return d["rating"]; })])
@@ -12,18 +45,7 @@
             .domain([0, d3.max(data, function(d) { return d["pop"]; })])
             .range([ height, 0 ]);
  
-    var chart = d3.select('body')
-  .append('svg:svg')
-  .attr('width', width + margin.right + margin.left)
-  .attr('height', height + margin.top + margin.bottom)
-  .attr('class', 'chart')
-
-    var main = chart.append('g')
-
-  .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
-  .attr('width', width)
-  .attr('height', height)
-  .attr('class', 'main')   
+      
   
         
     // draw the x axis
@@ -56,6 +78,9 @@
           .attr("cx", function (d,i) { return x(d["rating"]); } )
           .attr("cy", function (d) { return y(d["pop"]); } )
           .attr("r", 8);
+    g.selectAll(".points")
+          .on("mouseover", scatOverEvent)
+          .on("mouseout", scatOutEvent);
   }
   ////////////////////////////////////////
   //  ADD SCATTER PLOT EVENT HANDLERS  ///
@@ -65,7 +90,7 @@
   var highlightPoint = function() {
 
     //change the colors of all the points
-    scatPlot.selectAll(".points").style("fill", "grey")
+    main.selectAll(".points").style("fill", "grey")
 
     //point and position of current selection 
     var d = this.datum();
@@ -79,18 +104,19 @@
   //handler for hovering over a scatter point
   var scatOverEvent = function() {
 
-    console.log("hi");
+    
 
     //highlight the current point
     var point = d3.select(this);
     point.call(highlightPoint);
-
+    point.style("fill", "yellow")
     //display the tooltip
     var id = point.datum().id;
+    console.log(id);
     var pos  = { x: +point.attr("cx"), y: +point.attr("cy") };
     d3.select("#scatTooltip")
       .style("display", "block")
-      .style("left", (pos.x + pad.left + w + pad.middle + 16) + "px")
+      .style("left", (pos.x + 80) + "px")
       .style("top",  (pos.y + pad.top - 28)  + "px")
       .select(".value")
       .text(id);
@@ -109,11 +135,19 @@
     if (point.classed("insideBrush")) point.attr("r", brushRadius);
 
     //reset colors of other data points
-    scatPlot.selectAll(".points")
+    main.selectAll(".points")
             .style("fill", function(d) {return colors[d.group];});
   };
 
-  //add event handlers to the data points
-  scatPlot.selectAll(".points")
-          .on("mouseover", scatOverEvent)
-          .on("mouseout", scatOutEvent);
+  //helper function for moving elements to the front
+d3.selection.prototype.moveToFront = function() {
+  return this.each(function(){
+    this.parentNode.appendChild(this);
+  });
+};
+d3.transition.prototype.moveToFront = function() {
+  return this.each(function(){
+    this.parentNode.appendChild(this);
+  });
+};
+  
