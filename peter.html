@@ -1,0 +1,827 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Made By www.w3schools.com - No Copyright -->
+  <title>Ninth group- Movie reviews analysis</title>
+  <meta charset="utf-8">
+        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+        <meta name="viewport" content="width=device-width" />
+
+         <link rel="icon" type="image/png" href="/assets/img/favicon.ico">
+  <meta charset="utf-8">
+  <link rel="canonical" href="http://www.creative-tim.com"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <link href="https://lopeterlo.github.io/12-06-ninth/new.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="https://lopeterlo.github.io/12-06-ninth/new.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://pecu.github.io/D3/wc/d3.js" charset="utf-8"></script>
+  <script src="https://pecu.github.io/D3/wc/d3.layout.cloud.js"></script>
+  <script src="https://ndshen.github.io/test/project/cloudJS.js"></script>
+
+        
+       <link href="https://ndshen.github.io/test/source/bootstrap332.css" rel="stylesheet" />
+        <link href="https://ndshen.github.io/test/source/rubick_press.css" rel="stylesheet"/>
+        <!--     Fonts and icons     -->
+        <link href="https://ndshen.github.io/test/source/font-awesome.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
+        <link href="https://ndshen.github.io/test/source/pre-icon.css" rel="stylesheet">
+        <link href="https://ndshen.github.io/test/source/rubick-font.css" rel="stylesheet" />
+
+        <!--statistics-->
+       
+        <link rel=stylesheet type="text/css" href="https://ndshen.github.io/test/analysis/scatcss.css">
+        
+        <style>
+        .w3button {
+          background-color: #4CAF50; /* Green */
+          border: none;
+          color: white;
+          padding: 16px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+         -webkit-transition-duration: 0.4s; /* Safari */
+         transition-duration: 0.4s;
+         cursor: pointer;
+        }
+        .w3button2 {
+          background-color: white; 
+          color: black; 
+          border: 2px solid #008CBA;
+        }
+
+        .w3button2:hover {
+          background-color: #008CBA;
+          color: white;
+        }
+            .section-header .separator {
+                margin: 0em auto 2em;
+            }
+            .space-50{
+                height: 50px;
+                width: 100%;
+                display: block;
+                content: "";
+            }
+            .section .parallax > img{
+                width: 100%;
+                min-width: 0;
+                min-height: 0;
+            }
+            .pattern-image:after{
+                opacity: .2;
+/*                 background: #111; */
+            }
+            .section-header h1{
+                text-shadow: -2px 2px 30px rgba(0, 0, 0, 0.25), -2px 4px 14px rgba(0, 0, 0, 0.1);
+            }
+            .section-header h5{
+                  text-shadow: 0px 0px 11px rgba(0, 0, 0, 0.3);
+            }
+            .section-header .content{
+                top: 42%;
+            }
+            .section-we-are-1 .title{
+                max-width: 960px;
+            }
+            .card .icon ~ h3{
+                margin-bottom: 10px;
+            }
+            .section-with-hover .project .content{
+                text-align: center;
+            }
+            .section-with-hover .project .over-area{
+                background: rgba(0, 0, 0, .83);
+            }
+            .section-clients-2{
+                padding: 6em 0 1em;
+            }
+            .section-clients-2 .nav-text li {
+                margin: 0 15px 10px 15px;
+            }
+            .section-contact-3 .contact-container .address-container{
+                width: 28%;
+                background-color: #FFFFFF;
+                height: 470px;
+                top: 50px;
+                padding: 20px;
+            }
+            .section-contact-3 .address{
+                margin-top: 40px;
+            }
+            .section-we-made-3 .content{
+                padding: 0 15px;
+                text-align: center;
+            }
+            .section-we-made-3 .over-area .content h3{
+                margin: 5px 0 20px;
+            }
+            .section-we-made-3 .over-area .content p{
+                font-size: .9em;
+                color: #898989;
+            }
+            .section-we-made-3 .over-area .content h5{
+                margin-bottom: 0px;
+                margin-top: 20px;
+            }
+
+            .btn-black{
+                letter-spacing: 1px;
+                margin-top: 20px;
+            }
+
+            .copyright a{
+                color: #FFFFFF;
+            }
+
+            .section-team-2 .team .member p {
+              font-size: .9em;
+              padding: 0 10px;
+            }
+
+            .card{
+                margin-bottom: 30px;
+            }
+            .section-with-hover .project .over-area.over-area-sm .content p {
+              font-size: .85em;
+            }
+            .section-with-hover .project .over-area.over-area-sm .content h4 {
+              font-size: 1.6em;
+            }
+            .logo{
+                display: block;
+                margin: 0 auto 10px;
+                width: 61px;
+                height: 61px;
+                border-radius: 50%;
+                border: 1px solid #333333;
+                overflow: hidden;
+            }
+            .logo img{
+                width: 100%;
+                height: 100%;
+            }
+            .loading .loading-container p {
+                font-size: 30px;
+                width: 220px;
+                margin: 0 auto;
+                margin-bottom: 30px;
+                height: 35px;
+            }
+            .loading .logo{
+                opacity: 0;
+                transition: all 0.9s;
+                -webkit-transition: all 0.9s;
+                -moz-transition: all 0.9s;
+            }
+            .loading .logo.visible{
+                opacity: 1;
+            }
+            .sharrre.btn{
+                color: #444444;
+                border-color: #444444;
+                font-weight: 400;
+            }
+            .address .col-md-6{
+                padding-right: 7px;
+                padding-left: 7px;
+            }
+            a.img-class{
+                opacity: 1;
+            }
+            a.img-class:hover{
+                opacity: .9;
+            }
+
+            .btn-lg{
+                padding: 14px 10px;
+            }
+
+            @media (max-width: 1200px){
+                .section-contact-3 .contact-container .address-container{
+                    height: 520px;
+                }
+            }
+        </style>
+  
+
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" style="background-color: #DCDCDC">
+<center >
+<table width="80%" style="background-color: white">
+<tr>
+<td>
+<nav class="navbar navbar-default navbar-fixed-top" style="background-color:grey;">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">Group Nine</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+ 
+        <li><a href="#myInput">ANALYSIS</a></li>
+        <li><a href="#statistics">STATISTICS</a></li>
+        <li><a href="#websites">WEBSITES</a></li>
+        <li><a href="#pricing">MEMBERS</a></li>
+        <li><a href="#video">VIDEO</a></li>      
+         <li><a href="#about">ABOUT US</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="section section-header">
+                <div class="parallax pattern-image">
+                    <img src="http://lakewood.advocatemag.com/wp-content/uploads/2015/01/iStock_000045092280_Large.jpg"/ style="opacity:0.7">
+<!--                     <img src="/assets/img/header6.jpg"/> -->
+                    <div class="container">
+                        <div class="content">
+                            <h1 style="color:black;">Movies</h1>
+                            <div class="separator-container">
+                                <div class="separator line-separator">∎</div>
+                            </div>
+                            <h5 style="color:black;">"Every time I go to a movie, it's MAGIC, no matter what the movie's about"--Steven Speilberg</h5>
+                        </div>
+                    </div>
+                </div>
+                <a href="#engine" data-scroll="true" data-id="#whoWeAre" class="scroll-arrow hidden-xs hidden-sm">
+                <i class="fa fa-angle-down" ></i>
+                </a>
+            </div>
+            <!--
+            <div class="section section-we-are-1" id="whoWeAre">
+                <div class="text-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="title" id="animationTest">
+                                <h2>About Creative Tim</h2>
+                                <div class="separator-container">
+                                    <div class="separator line-separator">∎</div>
+                                </div>
+                                <p class="large">
+                                    Creative Tim is a startup that creates design tools that make the web development process faster and easier. We love the web and care deeply for how users interact with a digital product. We power businesses and individuals to create better looking web projects around the world.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          -->
+
+ <h3 style="margin-left: 15px"><strong>Search Movies</strong></h3>
+  <div class="w3-container" style="margin-top:-40px">
+  <h3></h3>
+  
+
+
+  <input class="w3-input w3-border " type="text" placeholder="空白鍵查看所有電影.." id="myInput" onkeyup="search()" onkeypress="if (window.event.keyCode==13) return applepie(this.value)">
+  <h7>熱門電影：<a href="#Analysis" onclick="applepie(this.innerText)">丹麥女孩</a>、<a href="#Analysis" onclick="applepie(this.innerText)">神鬼獵人</a>、<a href="#Analysis" onclick="applepie(this.innerText)">惡棍英雄:死侍</a>、<a href="#Analysis" onclick="applepie(this.innerText)">出神入化2</a>、<a href="#Analysis" onclick="applepie(this.innerText)">寒戰2</a>、<a href="#Analysis" onclick="applepie(this.innerText)">奇異博士</a> ...</h7>
+  <ul class="w3-ul w3-margin-top " id="myUL" style="display:none" >
+<script type="text/javascript">
+   d3.csv("https://ndshen.github.io/test/project/movieList6.csv", bigList);
+  function bigList(data){   
+    d3.select("#myUL").selectAll("li")
+      .data(data)
+      .enter()
+      .append("li")
+      .attr("class","w3-hover-gray")
+      .append("a")
+      .attr("href","#Analysis")
+      .attr("onclick","applepie(this.innerText)")
+      .text(function(d){return d["movieTitle"];});
+  }
+  </script>
+
+
+
+  </ul>
+</div>
+
+<script>
+
+
+function search() {
+    var input=0, filter, ul, li, a, i;
+    input = document.getElementById("myInput"); 
+    
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+
+    for (i = 0; i < li.length; i++) {
+        if (li[i].innerHTML.toUpperCase().indexOf(filter) > 0 ) {
+          $('#myUL').show();
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+ 
+}
+</script>
+
+
+
+      
+
+<!-- Container (About Section) -->
+
+
+
+<!-- Container (Analysis Section) -->
+<div id="Analysis" class="container-fluid text-center ">
+  <h1>Analysis</h1>
+<div id="hide" style="display: none; height:auto;">
+  <h1 id="moviename" class=" w3-text-blue-grey " style="background-color:   #F5F5F5" ></h1>
+  <div id="english" class="" style="margin-top: -20px" ></div>
+  <div style="height:400px;"> 
+   <div id="chart" style="display: inline-block; float:left; width: 45%"></div>
+   <div style="display: inline-block; width:45% ; text-align:left;" >
+       <div id="imdb" ></div>
+       <div id="frequency"></div>
+       <div style="display: inline-block; width:100%; position:relative;">
+        <div id="imgs" style="float:left;"></div>
+        <div style="right:0px; bottom: 0px; position:absolute;">
+          <button onclick="showAgain()"; class="w3button w3button2">Cloud</button>
+        </div>
+       </div>
+   </div>
+</div>
+</div>
+
+  <div id ="wordcloud">
+  <script>
+  function showAgain(){
+      d3.select("#hide").style("display","none");
+      showCloud();
+  }
+  function showCloud(){
+    d3.csv("https://ndshen.github.io/test/project/cloud2.csv", 
+      function(data)
+      {
+        
+        d3.wordcloud()
+          .size([800, 600])
+          .fill(d3.scale.ordinal().range(["#884400", "#448800", "#888800", "#444400"]))
+          .words(data)
+          .start();
+      });
+  }
+  showCloud();
+  </script>
+  </div>
+   
+</div>
+ 
+
+  <script type="text/javascript">
+  
+function applepie(title)
+
+  {
+  d3.select("#hide").style("display", "block")
+  d3.select("#wordcloud").selectAll("svg").remove();
+  d3.select("#chart").selectAll("svg").remove();
+  d3.select("#english").selectAll("h2").remove();
+  d3.select("#imdb").selectAll("h2").remove();
+  d3.select("#frequency").selectAll("h2").remove();
+  d3.select("#imgs").selectAll("img").remove();
+// title放使用者輸入的電影名稱
+
+  document.getElementById("moviename").innerHTML=title;
+  document.getElementById("myUL").style="display:none";
+  document.getElementById("imdb").style="font-size:20px";
+  document.getElementById("frequency").style="font-size:30px ";
+  var width = 400, height = 350; 
+  var svg = d3.select("#chart").append("svg")
+                  .attr("width", width)
+                  .attr("height", height)
+                  .append("g")
+            .attr("transform", "translate(200,170)");
+  var color = d3.scale.category20();
+  d3.csv("https://small00blue.github.io/test1/mtest.csv", piechart); //這樣寫以後可以加很多其他函式
+  function piechart(data){
+    var arc = d3.svg.arc()
+                    .outerRadius(150)
+                        .innerRadius(70);
+              var pie = d3.layout.pie()
+                  .sort(null) 
+                      .value(function(d) {
+                        console.log(d[title]);
+                      return d[title]}
+                      ); // 這個方法也能選good and bad   
+    var g1 = svg.selectAll("g")
+                .data(pie(data))
+                .enter()
+                .append("g");
+        g1 .append("path")
+             .attr("d", arc)
+             .style("fill", function(d,i) { 
+                return color(i) });
+    
+    g1 .append("text")
+             .attr("transform", function(d){
+            return "translate("+ arc.centroid(d) +")";
+            //centroid()任何形狀的中心點
+          })
+           .attr("text-anchor", "middle")
+             .text(function(d){
+
+              return d.data.movieTitle + "," + d.value ; //在每個形狀的中央插入文字
+          })
+          .attr("fill", "white"); 
+              g1 .append("text")
+             .attr(
+                {"X":10,
+                "y":10}
+            //位置
+          )
+           .attr("text-anchor", "middle")
+             .text(function(d){
+              return "PTT 好負雷比" ; //在每個形狀的中央插入文字
+          })
+          .attr("fill", "black"); 
+
+      }
+    
+ 
+  d3.csv("https://ndshen.github.io/test/project/rating3.csv", imdb);
+  function imdb (data){
+    d3.select("#imdb").selectAll("div")
+      .data(data)
+      .enter()
+      .append("h2")
+      .text(function(d){return "IMDb Rating: "+d[title];})
+      .style({
+        'color':'rgb(144, 173, 115)',
+       
+      
+       
+        
+    });
+  }
+   d3.csv("https://ndshen.github.io/test/project/popularity3.csv", popular);
+  function popular(data){   
+    d3.select("#frequency").selectAll("div")
+      .data(data)
+      .enter()
+      .append("h2")
+      .text(function(d){return "Popularity in PTTMOVIEs: "+d[title];})
+      .style({
+        'color':'rgb(144, 173, 155)',
+        'font-size':'40px',
+        
+    });
+  }
+  d3.csv("https://ndshen.github.io/test/project/englishName2.csv", english);
+  function english(data){   
+    d3.select("#english").selectAll("div")
+      .data(data)
+      .enter()
+      .append("h2")
+      .text(function(d){return d[title];})
+      .attr("class","w3-text-blue-grey")
+      .style({
+        'font-size':'25px',
+        'background':'#F5F5F5',
+      
+    });
+  }
+  d3.csv("https://ndshen.github.io/test/project/img4.csv", imgs);
+  function imgs(data){   
+    console.log(title)
+    d3.select("#imgs").selectAll("div")
+      .data(data)
+      .enter()
+      .append("img")
+      .attr("src",function(d){return d[title];})
+      
+  }
+
+
+}
+  </script>
+
+  
+
+
+
+</div>
+
+  <div id="statistics" class="container-fluid text-center">
+    <h1>Statistics</h1>
+    <h2 class=" w3-text-blue-grey ">IMDB評分與PTT討論量 散布圖</h2>
+    <div id="mainChart">
+      <div id="scatTooltip" style="position:absolute; margin-left:15%; display:none" >
+        <h3 style="color:rgb(144, 173, 115); font-size:40px;"><span class="value">value</span></h3>
+      </div>
+          <!-- /the chart goes here -->
+    </div>
+        <script type="text/javascript" src="https://ndshen.github.io/test/analysis/scatterchart.js"></script>
+  </div>
+
+  
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel" >
+    <!-- Indicators -->
+    <h1 class="text-center" >Popular movies</h1>
+    
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox" >
+
+      <div class="item active" >
+      <img src="http://1img.mgtv.com/preview/internettv/sp_images/ott/2016/dongman/292476/20160411105438321-new.jpg" class="img-circle"  width="500" height="400" style="margin-left: 26%" >
+      <a href="#Analysis" onclick="applepie(this.innerText)" style="font-size: 30px"><strong>你的名字</strong></a>
+      <p style="margin-top:20px">    </p>
+  <br>
+      </div>
+
+      <div class="item" >
+       <img src="https://3.bp.blogspot.com/-q43hXQrhagI/V61YaWNmsQI/AAAAAAAAFJQ/xZBDGh1NIlsJ_WXdoRy76AxMSjCxNqozwCLcB/w1200-h630-p-nu/fantastic-beasts-ew-cover-450x600.jpg" class="img-circle"  width="340" height="400" style="margin-left: 33%">
+
+       <a href="#Analysis" onclick="applepie(this.innerText)" style="font-size: 30px"><strong>怪獸與牠們的產地</strong></a>
+      <p style="margin-top:20px">    </p>
+        <br>
+      </div>
+
+      <div class="item" >
+       <img src="http://read.html5.qq.com/image?src=forum&q=5&r=0&imgflag=7&imageUrl=http://mmbiz.qpic.cn/mmbiz/ia17192HSYNnWhunflE0sFjmdaZLodhlA5oVwvyicIO3k0VkCIr7o8QWRSnV1ZWjfqiap0oDdbgED9KqvL6l9nf9Q/0?wx_fmt=jpeg" class="img-circle"  width="390" height="400" style="margin-left: 33%">
+
+       <a href="#Analysis" onclick="applepie(this.innerText)" style="font-size: 30px"><strong>丹麥女孩</strong></a>
+      <p style="margin-top:20px">    </p>
+        <br>
+      </div>
+
+<div class="item" >
+       <img src="http://p2.cri.cn/M00/52/8C/CqgNOldQ50mABZF8AAAAAAAAAAA847.800x450.jpg" class="img-circle"  width="390" height="300" style="margin-left: 33%">
+
+       <a href="#Analysis" onclick="applepie(this.innerText)" style="font-size: 30px"><strong>六弄咖啡館</strong></a>
+      <p style="margin-top:20px">    </p>
+        <br>
+      </div>
+
+<div class="item" >
+       <img src="http://image.cache.storm.mg/styles/smg-800xauto-er/s3/media/image/2016/08/26/20160826-051039_U4095_M190163_cffb.png?itok=TCEnaBV5" class="img-circle"  width="390" height="300" style="margin-left: 33%">
+
+       <a href="#Analysis" onclick="applepie(this.innerText)" style="font-size: 30px"><strong>如果這世界貓消失了</strong></a>
+      <p style="margin-top:20px">    </p>
+        <br>
+      </div>
+
+
+
+      <div class="item">
+          <img src="https://static1.squarespace.com/static/56a7b1eb69a91aab7988743c/t/580538cf20099e3d0e62b735/1476737236575/" class="img-circle"  width="450" height="300" style="margin-left: 30%">
+          <a href="#Analysis" onclick="applepie(this.innerText)" style="font-size: 30px"><strong>比利林恩的中場戰事</strong></a>
+      <p style="margin-top:20px">    </p>
+<br>
+      </div>
+
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+
+
+
+<!-- Container (websites Section) -->
+<div id="websites" class="container-fluid text-center bg-grey" style="margin-top: -100px">
+  <h1>Related Website</h1><br>
+  <h4></h4>
+  <div class="row text-center slideanim">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <a href="https://www.rottentomatoes.com/"><img src="https://yt3.ggpht.com/-OLGp0EBxaJ0/AAAAAAAAAAI/AAAAAAAAAAA/4BdFndi9ol4/s900-c-k-no/photo.jpg" width="150" height="200" alt="你的名字" class="w3-hover-opacity"></a>
+        <p></p>
+        <a href="https://www.rottentomatoes.com/"><strong>Rotten Tomato</strong></a>
+  
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <a href="http://www.imdb.com/"><img src="https://censorshipinamerica.files.wordpress.com/2013/03/imdb.jpg"  width="300" height="200" class="w3-hover-opacity"></a>
+        <p> </p>
+        <a href="http://www.imdb.com/"><strong>IMDb</strong></a>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+      <p></p>
+        <a href="http://www.truemovie.com/tairelease.htm"><img src="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/1936588_161803091402_1137378_n.jpg?oh=2ae40b9c2132e39d11fb774dc4d700f8&oe=58B99C86" alt="San Francisco" width="300" height="300" class="w3-hover-opacity"></a>
+      <p></p>
+       <a href="http://www.truemovie.com/tairelease.htm">
+       <br>
+       
+       <strong>True movie</strong></a>
+
+      </div>
+    </div>
+  </div><br>
+  
+
+
+<!-- Container (Pricing Section) -->
+<div id="pricing" class="container-fluid" style="margin-top: -100px">
+  <div class="text-center">
+    <h1>Members</h1>
+    <h4 style="margin-top: -20px">-five members in ninth gruop</h4>
+  </div>
+  <div class="row slideanim">
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>羅良瑋</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>來自</strong> 師大附中</p>
+          <p><strong>星座</strong> 金牛座</p>
+          <p><strong>系所 年級</strong> 資訊管理學系 二年級</p>
+          <p><strong>興趣 </strong> 打排球 聽音樂 運動</p>
+          <p><strong>分工 </strong>網頁視覺設計& 網頁資料整合</p>
+          <p><strong></strong> </p>
+
+<p><strong></strong> </p>
+          <a href="https://www.facebook.com/peter.lo.1610?fref=ts"><img src="http://www.tiga.com.tw/HJO/fb.png" width="50" height="45" class="w3-hover-opacity"></a>
+
+        </div>
+        <div class="panel-footer">
+          <img src="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/14721601_1191128400951871_6251072441234097914_n.jpg?oh=d02254e68217e3c31e93855c9bf72fd8&oe=58F434A5" style="width:150px"></img>
+          
+        </div>
+      </div>      
+    </div>     
+
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>沈品耀</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>身高</strong> 183 cm</p>
+          <p><strong>來自</strong> 薇閣高中</p>
+          <p><strong>系所 年級</strong> 資訊管理學系 二年級</p>
+          <p><strong>興趣 </strong>打排球 打ＬＯＬ</p>
+          <p><strong>分工 </strong>爬蟲資料抓取沖洗& R語言教學影片錄製</p>
+          <p><strong></strong> </p>
+          <a href="https://www.facebook.com/profile.php?id=100000130788875&fref=ts"><img src="http://www.tiga.com.tw/HJO/fb.png" width="50" height="45" class="w3-hover-opacity"></a>
+  
+        </div>
+        <div class="panel-footer">
+          <img src="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/995161_703450756335944_705016001_n.jpg?oh=ed798c9d9795bcf4101e8a7a53edff5a&oe=58C3B203" style="width:150px" alt="沈品耀"></img>
+          
+        </div>
+      </div>      
+    </div>     
+
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>何青儒</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>台中人</strong></p>
+          <p><strong>來自</strong> 武陵高中</p>
+          <p><strong>系所 年級</strong> 外國語文學系 一年級</p>
+          <p><strong>興趣 </strong>聽音樂</p>
+          <p><strong>分工 </strong>D3資料視覺化協作 & 爬蟲教學影片後製  </p>
+          <p><strong> </strong> </p>
+<a href="https://www.facebook.com/herchingru?fref=ts"><img src="http://www.tiga.com.tw/HJO/fb.png" width="50" height="45" class="w3-hover-opacity"></a>
+
+        
+        </div>
+        <div class="panel-footer">
+          <img src="https://scontent-tpe1-1.xx.fbcdn.net/v/t31.0-8/15723600_995605697212506_6690441244105889421_o.jpg?oh=92c13e2cf1245cd83f1190e86188d420&oe=58D987CC" style="width:150px"></img>
+          
+        </div>
+      </div>      
+    </div>     
+
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>王筱嵐</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>來自</strong> 台南女中</p>
+          <p><strong>系所 年級</strong> 會計學系 三年級</p>
+          <p><strong>興趣 </strong>肚皮舞</p>
+          <p><strong>分工 </strong>D3圓餅圖繪製 & 團隊討論統整紀錄</p>
+          <a href="https://www.facebook.com/profile.php?id=100000293426473&fref=ts"><img src="http://www.tiga.com.tw/HJO/fb.png" width="50" height="45" class="w3-hover-opacity"></a>
+
+      
+        </div>
+        <div class="panel-footer">
+          <img src="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/12390946_1100512793301824_1366443451612559835_n.jpg?oh=714d5e5b69831fb871f5bffa0e05fcc5&oe=58C82339" style="width:150px"></img>
+          
+        </div>
+      </div>      
+    </div>     
+
+        <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>劉育瑄</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>專長</strong> 游泳</p>
+          <p><strong>系所 年級</strong> 工商管理學系 二年級</p>
+          <p> <strong>分工 </strong>文字雲製作 & 團隊專案報告簡介</p>
+          <p><strong></strong> </p>
+
+          <a href="https://www.facebook.com/profile.php?id=100010044491904"><img src="http://www.tiga.com.tw/HJO/fb.png" width="50" height="45" class="w3-hover-opacity"></a>
+          
+        </div>
+        <div class="panel-footer">
+          <img src="https://scontent-tpe1-1.xx.fbcdn.net/v/t31.0-8/14902713_364081933936620_1909742801539912848_o.jpg?oh=af6a10a7630e02fdeecdd2ce950ef6a4&oe=58ED2CA3" style="width:150px"></img>
+          
+        </div>
+      </div>      
+    </div>   
+
+<div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Pecu Club</h1>
+        </div>
+        <div class="panel-body">
+          
+        </div>
+        <div class="panel-footer">
+          
+          <a href="https://www.facebook.com/groups/283207588460616/?fref=ts"><img src="https://scontent-hkg3-1.xx.fbcdn.net/v/t31.0-8/14444847_10206852207530483_8152740340572100975_o.jpg?oh=50d70ff1c7b409f17bf40d4ccab6b9cf&oe=591630FC" style="width:220px"></a>
+
+      
+        
+ 
+          
+        </div>
+      </div>      
+    </div> 
+
+
+  </div>
+  </div>
+  
+
+
+
+
+
+
+
+
+
+<!-- Container (Contact Section) -->
+<div id = "video" class="container-fluid" style="margin-top: -100px">
+<h1><strong>  Video</strong></h1>
+<h3 style="margin-top: -20px">Our video for crawling with R</h3>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/4MiD_DPW5N4" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
+<div id="about" class="container-fluid text-center" style="margin-top: -100px" >
+  <div class="row">
+      <h1>About our websites</h1>
+      <h2>  </h2>
+      <h4 style="margin-top: 15px">我們是數位應用程式設計的第九組，我們利用R程式語言統整了PTT movie板和   </h4>
+      <h4>國外知名電影影評網站IMDb中的資料，並且利用搜尋功能，讓使用者能了解電影在國內外的評價。        
+    </div>
+  </div>
+
+</div>
+</td>
+</tr>
+</center>
+
+</body>
+</html>
+
