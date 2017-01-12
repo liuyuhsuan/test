@@ -116,8 +116,6 @@ var colors = {
     var pos  = { x: +point.attr("cx"), y: +point.attr("cy") };
     d3.select("#scatTooltip")
       .style("display", "block")
-      .style("left", (pos.x ) + "px")
-      .style("top",  (pos.y )  + "px")
       .select(".value")
       .text(id);
   };
