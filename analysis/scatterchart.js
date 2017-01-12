@@ -22,6 +22,7 @@ var colors = {
 
   var chart = d3.select('#mainChart')
   .append('svg:svg')
+  .attr("postition","relative")
   .attr('width', width + margin.right + margin.left)
   .attr('height', height + margin.top + margin.bottom)
   .attr('class', 'chart')
@@ -124,7 +125,8 @@ var colors = {
   var scatOutEvent = function() {
 
     
-    
+    d3.select("#scatTooltip")
+      .style("display", "none");
 
     //reset attributes of current data point
     var point = d3.select(this);

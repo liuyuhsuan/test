@@ -130,6 +130,8 @@
         .on("click", function(d, i) {
           window.location = "#Analysis";
           applepie(d.text);
+          d3.select("#hide")
+            .style("display","block");
         });
 
       vis.transition()
